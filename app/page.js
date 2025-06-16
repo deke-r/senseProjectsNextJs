@@ -160,8 +160,8 @@ export default function HomePage() {
         h3="Ready to Build with Award-Winning Experts?"
         p="Get your construction done by professionals who solve with innovation — all at an affordable price."
       />
-      <OurServices />
       <WhyChooseUs />
+      <OurServices />
       <AwardWinning />
       <OurClients />
       <Testimonials />

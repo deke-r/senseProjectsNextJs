@@ -1,6 +1,80 @@
-'use client'
 
-import React from 'react'
+
+export const metadata = {
+  title: 'Best Construction Company in India - Sense Projects Pvt Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. (SPPL) is a reputed, globally recognised and most admired construction company in India, which specializes in delivering top notch services',
+  keywords: [
+    'Construction Company',
+    'Best Construction Company',
+    'Top Construction Company In India',
+    'Best Construction Company In India',
+    'Construction Company In India',
+    'Commercial Construction Company',
+    'Residential Construction Company',
+    'Turnkey Construction Company',
+    'Civil Construction Company',
+    'Interior Construction Company',
+    'Modular Construction Company',
+    'Top Builders in India',
+    'Infrastructure Development Company',
+    'Engineering Procurement and Construction',
+    'EPC Contractors India',
+    'Real Estate Construction Company',
+    'High-Rise Building Contractors',
+    'Industrial Construction Company',
+    'Trusted Construction Company India',
+    'Construction and Project Management',
+    'Green Building Company India',
+    'Affordable Construction Services',
+    'Reputed Construction Company India',
+    'General Contractors India',
+    'Leading Infrastructure Company',
+    'Project Management Consultancy India',
+    'Top Civil Contractors in Delhi',
+    'MEP Services Company India',
+    'Sustainable Construction Solutions',
+    'Smart Building Solutions India',
+    'Top Turnkey Projects Contractor',
+    'Construction Company Delhi NCR',
+    'Contractor for Government Projects',
+    'Top Infrastructure Company in India',
+    'India’s Leading Construction Firm',
+    'Best Commercial Builders in India',
+    'Top Rated Construction Firms in India',
+    'ISO Certified Construction Company India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Construction Company in India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Best Construction Company in India - Sense Projects Pvt Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Best Construction Company in India - Sense Projects Pvt Ltd.',
+    description:
+      'Sense Projects Pvt. Ltd. (SPPL) is a reputed, globally recognised and most admired construction company in India, which specializes in delivering top notch services',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Best Construction Company in India - Sense Projects Pvt Ltd.',
+    url: 'https://senseprojects.in/',
+  },
+};
+
+
+
+
+
+
 import Header from '../components/Header'
 import Carosuel from '../components/Carosuel'
 import BlobSection from '../components/BlobSection'

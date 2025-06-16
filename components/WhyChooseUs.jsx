@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react';
 import '../styles/WhyChooseUs.css';
 import SectionHeader from '../components/SectionHeader';

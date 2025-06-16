@@ -1,0 +1,72 @@
+.inp {
+    color: #797979;
+    border: solid 1px #eaeaea;
+    padding: 10px 15px;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    outline: none !important;
+  }
+  
+  .inp-text {
+    color: #797979;
+    border: solid 1px #eaeaea;
+    margin-bottom: 20px;
+  }
+  
+  /* Submit Button Styling */
+  .submit_btn {
+    position: relative;
+    background: linear-gradient(to right, #134377 2%, #F97306 2%);
+    color: #fff;
+    border: none;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .submit_btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #134377;
+    transition: width 0.4s ease;
+    z-index: 0;
+  }
+  
+  .submit_btn:hover::after {
+    width: 98%;
+  }
+  
+  .submit_btn span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .submit_btn:hover {
+    color: #fff;
+  }
+
+
+  .form-control:focus{
+    box-shadow: none !important;
+  }
+  
+  .map-section {
+    background: #f8f9fb;
+  }
+  
+  .map-container {
+    border-top: 4px solid #134377;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+  }
+  
+  .map-container:hover {
+    transform: scale(1.01);
+  }
+  

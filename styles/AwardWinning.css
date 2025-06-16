@@ -1,0 +1,51 @@
+.award-winning-section {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  background-color: #134377 !important;
+}
+
+.award-winning-section .content-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 28px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  line-height: 0;
+}
+
+.wave svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.wave-top-award {
+  top: 0;
+}
+
+.wave-bottom-award {
+  bottom: 0;
+}
+
+.award-winning-section .container {
+  position: relative;
+  z-index: 2;
+}

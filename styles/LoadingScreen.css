@@ -1,0 +1,81 @@
+.body-div{
+    margin: 0;
+    padding: 0;
+    background-color: #FF5E15;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .loading-wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .bg-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #0c4379;
+    z-index: 0;
+    animation: bgFill 1s ease-in-out 4s forwards;
+  }
+  
+  .white-exit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 3;
+    animation: slideWhite 1s ease-in-out 5s forwards;
+  }
+  
+  .water-fill {
+    position: relative;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    color: transparent;
+    -webkit-text-stroke: 0.5px lightgray;
+    z-index: 2;
+    transition: transform 1s ease-in-out 5s;
+  }
+  
+  .water-fill::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: fillText 4s ease-in-out forwards;
+  }
+  
+  @keyframes fillText {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes bgFill {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+  
+  @keyframes slideWhite {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+  

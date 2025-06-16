@@ -1,0 +1,88 @@
+
+  .service-item {
+    background-color: #f9f9f9;
+    padding: 40px 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.06);
+    height: 100%;
+    border-radius: 16px;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #eee;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.08);
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .icon i {
+    color: #52565E;
+    font-size: 48px;
+    position: relative;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .icon:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 1;
+    top: 10px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .service-item h3 {
+    font-size: 22px;
+    color: #52565E;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .service-item p {
+    color: #52565E;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .service-item:hover .icon:before {
+    background: #f97306;
+  }
+  
+  .service-item:hover h3 {
+    color: #f97306;
+    border-color: #f97306;
+  }
+  
+  .service-item .readmore {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f97306;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .service-item .readmore i {
+    margin-left: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .service-item:hover .readmore i {
+    transform: translateX(5px);
+  }
+  

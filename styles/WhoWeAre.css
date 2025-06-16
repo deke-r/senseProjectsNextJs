@@ -1,0 +1,25 @@
+.who-we-are-section {
+    background-color: #134377;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .wave-top,
+  .wave-bottom {
+    width: 100%;
+    line-height: 0;
+  }
+  
+  .wave-top svg,
+  .wave-bottom svg {
+    display: block;
+    width: 100%;
+    height: 80px;
+  }
+  
+  
+  
+  
+.custom-heading{
+    color:white;
+}

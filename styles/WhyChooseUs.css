@@ -1,0 +1,62 @@
+.why-choose-us .section-title {
+    color: #134377;
+    font-size: 32px;
+  }
+  
+  .accordion {
+    border-left: 2px solid #134377;
+    padding-left: 15px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+  }
+  
+  .accordion-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .accordion-item.active {
+    border-color: #f97306;
+    background-color: #fffaf4;
+  }
+  
+  .accordion-header {
+    font-weight: 600;
+    color: #134377;
+    font-size: 16px;
+  }
+  
+  .arrow-icon {
+    font-size: 14px;
+    transition: transform 0.3s ease;
+    color: #134377;
+  }
+  
+  .arrow-icon.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-body-wrapper {
+    transition: max-height 0.4s ease;
+  }
+  
+  .accordion-body {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #52565E;
+  }
+  
+  .description {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+ 

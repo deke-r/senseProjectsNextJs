@@ -1,0 +1,13 @@
+.table thead tr th{
+    background-color: #134377 !important;
+    color: white;
+    font-weight: 600 !important;
+    font-size: 1.125rem;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fcfcfc;
+    padding: 16px 21px;
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+
+}

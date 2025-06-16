@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.ttf') format('truetype'); /* adjust path if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -16,12 +16,12 @@ const Certification = () => {
                         <div className="row g-4">
                             <div className="col-md-6">
                                 <div className="cert-img-box position-relative">
-                                    <img src='/images/ISO_1 (1).jpg' className="img-fluid rounded-0 rounded-top-4 mx-auto d-block" alt="ISO Certificate 1" />
+                                    <img src='/images/Sense Projects QMS_page-0001.webp' className="img-fluid rounded-0 rounded-top-4 mx-auto d-block" alt="ISO Certificate 1" />
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="cert-img-box position-relative">
-                                    <img src='/images/ISO_2 (1).jpg' className="img-fluid rounded-0 rounded-top-4 mx-auto d-block" alt="ISO Certificate 2" />
+                                    <img src='/images/Sense Projects OHS_page-0001.webp' className="img-fluid rounded-0 rounded-top-4 mx-auto d-block" alt="ISO Certificate 2" />
                                 </div>
                             </div>
                         </div>

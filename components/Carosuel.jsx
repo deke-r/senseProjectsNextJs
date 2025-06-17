@@ -6,7 +6,7 @@ import { useEffect } from "react"
 
 const slides = [
   {
-    src: "/images/hero-carousel-1.jpg",
+    src: "/images/Sense-Projects-Ncr.webp",
     title: "Best Construction Company in India",
     desc: "Sense Projects focusing on India residential building projects, extensions, conversions and refurbishments.",
   },

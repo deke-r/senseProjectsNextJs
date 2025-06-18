@@ -23,7 +23,7 @@ const IC = () => {
             />
 
             <h5 className='text-center fw-bold'>“WE BUILD, THAT LONG LASTS”</h5>
-            <div className="container my-2">
+            <div className="container mb-5 mt-3">
 
                 <p className='fw-semibold text-secondary'>Sense Projects is one of the trusted industrial construction companies in India since 2007. We deliver exceptional Industrial solutions. We are experts in industrial projects. We have an experienced team who delivers high-quality results. If you are looking for a reliable construction company for your industrial projects, choose Sense Projects for all your construction needs.</p>
             </div>

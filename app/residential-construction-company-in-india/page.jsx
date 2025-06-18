@@ -3,6 +3,8 @@ import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'
 import SectionHeader from '../../components/SectionHeader'
 import LeadingTrustSection from '../../components/LeadingTrustSection'
+import WhoWeAre from '@/components/WhoWeAre'
+import WhyChooseUs from '@/components/WhyChooseUs'
 
 
 const ResidentialConstruction = () => {
@@ -20,8 +22,8 @@ const ResidentialConstruction = () => {
                 color="#134377"
             />
 
-            <h5 className='text-center fw-bold'>OUR MOTTO “ YOUR WISH IS OUR COMMAND”</h5>
-            <div className="container my-2">
+            <h5 className='text-center mt-5 fw-bold'>“ YOUR WISH IS OUR COMMAND”</h5>
+            <div className="container mb-5">
 
                 <p className='fw-semibold text-secondary'>Sense Projects Pvt. Ltd., a luxury residential construction company since 2007. We specialize in designing and building exceptional homes. With a team of skilled architects and designers, we turn your dream home into a reality. Our focus is on delivering premium construction services at an affordable price, without compromising on quality. With over a decade of experience in the industry, we bring expertise and learning from each project to ensure excellence in every endeavor. Trust us to provide world-class amenities and timely project completion, as we continue to grow and learn with every project we undertake.</p>
             </div>
@@ -87,6 +89,9 @@ const ResidentialConstruction = () => {
                     </div>
                 </div>
             </section>
+
+            <WhoWeAre/>
+            <WhyChooseUs/>
 
             <CTASection h3='Looking for high quality constructor for your project Residential, Industrial Hotels & Resorts? Call N' />
             <PanIndia />

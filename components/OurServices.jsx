@@ -10,7 +10,7 @@ const services = [
     title: 'Civil Constructions',
     description:
       'Our civil contractors provide you with high-quality construction services and cost-effective solutions for various types of construction projects across India.',
-    link: '/services/civilconstructions',
+    link: '/construction-contractors-in-india',
   },
   {
     icon: 'fa-warehouse',

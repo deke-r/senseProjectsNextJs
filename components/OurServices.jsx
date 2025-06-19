@@ -17,14 +17,14 @@ const services = [
     title: 'Pre Engineered Buildings',
     description:
       'PEB or Pre-engineered Buildings are constructed using pre-made components for quick and efficient building construction. Take the first step towards your PEB building - call us today!',
-    link: '/services/preengineeredbuildings',
+    link: '/pre-engineered-buildings-company-in-india',
   },
   {
     icon: 'fa-ruler-combined',
     title: 'Interior Fit-out',
     description:
       'Interior design involves arranging and decorating spaces to make them attractive and functional. Ready to transform your space? Contact us for expert interior design services!',
-    link: '/services/interiorfitout',
+    link: '/interior-fitout-company-in-india',
   },
   {
     icon: 'fa-road',

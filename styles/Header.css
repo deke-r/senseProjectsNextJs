@@ -9,7 +9,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 14px !important;
   font-weight: 600 !important;
-  color: gray;
+  color: white;
   text-transform: uppercase;
   padding-bottom: 5px;
   transition: color 0.3s ease;
@@ -49,7 +49,7 @@
   transition: background-color 0.3s ease;
 }
 
-/* Scrolled navbar */
+
 .navbar.scrolled {
   background-color: #fff !important;
   transition: background-color 0.3s ease;
@@ -64,7 +64,7 @@
   color: #000;
 }
 
-/* Toggler icon */
+
 .navbar-toggler-icon {
   background-image: url('/images/menu1.svg') !important;
   z-index: 2;
@@ -74,20 +74,20 @@
   outline: none !important;
 }
 
-/* Background for mobile nav */
+
 @media (max-width: 1080px) {
   .bg-md-light {
     background-color: white;
   }
 }
 
-/* === Dropdown Hover === */
+
 .dropdown-hover:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
 
-/* Animate dropdown appearance */
+
 .dropdown-menu {
   transition: all 0.3s ease;
   display: none;
@@ -103,7 +103,7 @@
   transform: translateY(0);
 }
 
-/* Mobile fallback: dropdown works on click */
+
 @media (max-width: 991.98px) {
   .dropdown-hover:hover .dropdown-menu {
     display: block;

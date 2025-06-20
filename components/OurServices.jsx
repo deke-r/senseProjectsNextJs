@@ -31,7 +31,7 @@ const services = [
     title: 'Road Services',
     description:
       'Roads are important because they help us travel and connect places. SPPL is a growing company. We started our journey in 2007 and successfully completed many remarkable roads.',
-    link: '/services/roadservices',
+    link: '/road-construction-company-in-india',
   },
   {
     icon: 'fa-handshake',

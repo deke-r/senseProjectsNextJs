@@ -16,12 +16,12 @@ const AwardWinning = () => {
           <h2 className="section-title font-pop fw-bold text-center mb-4">
             Award-winning Leaders, Setting Benchmarks in the Construction Industry.
           </h2>
-          <p className="font-pop paragraph mb-3">
+          <p className="font-pop text-light paragraph mb-3">
           Sense Projects Pvt Ltd, a trusted construction company in India, is dedicated to customer satisfaction. With our determined commitment to quality and the use of premium materials, we deliver projects on time and within budget. As award-winning leaders in the industry, we stand out for our distinction and dependability.
           </p>
-          <p className="font-pop paragraph mb-3">
+          <p className="font-pop text-light paragraph mb-3">
           Sense Projects Pvt Ltd is your trusted choice for residential, commercial, and industrial projects. With a team that has specific engineers, architects, managers, and trained workers, we bring more than a decade years of experience to every project. Our reliable network of suppliers ensures a complete and top-quality construction service.          </p>
-          <p className="font-pop paragraph">
+          <p className="font-pop text-light paragraph">
 
           Sense Projects Pvt Ltd is an award-winning leader in the construction industry. We excel in maximizing space utilization and ensuring perfection in every detail. Our meticulous checks ensure timely project completion at competitive prices. Our satisfied clients return to us, a command of our allegiance to excellence.          </p>
         </div>

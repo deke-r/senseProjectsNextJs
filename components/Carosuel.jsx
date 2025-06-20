@@ -86,7 +86,7 @@ const Carousel = () => {
                   <h1 className="carousel-text-title animated-title" style={{ zIndex: 2 }}>
                     {slide.title}
                   </h1>
-                  <p className="carousel-text-desc" style={{ zIndex: 2, color: "lightgray", fontWeight: 600 }}>
+                  <p className="carousel-text-desc text-light" style={{ zIndex: 2, color: "lightgray", fontWeight: 600 }}>
                     {slide.desc}
                   </p>
                   <Link href="/contact" passHref>

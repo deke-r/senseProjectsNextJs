@@ -1,6 +1,16 @@
 html, body {
     /* overflow-x: hidden; */
   }
+
+  *{
+     font-family: 'Poppins', sans-serif ;
+  }
+
+  p{
+      --bs-text-opacity: 1;
+    color: var(--bs-secondary-color)!important;
+  }
+
   
 .banner-top {
     height: 100vh;
@@ -161,7 +171,7 @@ html, body {
 
 .banner-txt h1{
   font-size: 56px !important;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .banner-txt {

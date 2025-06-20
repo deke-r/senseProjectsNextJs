@@ -22,23 +22,23 @@ const WhoWeAre = () => {
 
                 
                 <div className="row">
-                    <div className="col-md-6 font-pop">
+                    <div className="col-md-6 font-pop ">
                         <h4>Leading Builders in India</h4>
-                        <p>
+                        <p className='text-light'>
                             Sense Projects Pvt Ltd is a leading construction company in India. We operate in all major Metro cities and across India...
                         </p>
-                        <p>
+                        <p className='text-light'>
                             With expertise in construction, interior fit-out, PEB (Pre-Engineered Building), MEP...
                         </p>
                     </div>
                     <div className="col-md-6 font-pop">
-                        <p>
+                        <p className='text-light'>
                             With a strong reputation built over a decade of experience, Sense Projects Pvt Ltd is committed to delivering high-quality work...
                         </p>
-                        <p>
+                        <p className='text-light'>
                             Choose Sense Projects for all your construction necessities. We handle contracting, design, construction...
                         </p>
-                        <p className="fw-bold">📞 +91 9319412012</p>
+                        <p className="fw-bold text-light">📞 +91 9319412012</p>
                     </div>
                 </div>
             </div>

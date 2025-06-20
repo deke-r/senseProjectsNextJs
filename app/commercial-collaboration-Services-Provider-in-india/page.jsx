@@ -7,19 +7,19 @@ import '../../styles/CivilConstructions.css';
 import PreEngineeredServices from '@/components/preEngineeredServices';
 import LeadingTrustSection from '@/components/LeadingTrustSection';
 
-export default function ResedentialCollaborationServicesProviderInIndia() {
+export default function CommercialCollaborationServicesProviderInIndia() {
     return (
         <>
             {/* Top Banner */}
-            <BannerTop page="Resedential Collaboration Services Provider in India" page2="Services" />
+            <BannerTop page="Commercial Collaboration Services Provider in India" page2="Services" />
             <div className="container">
                 <div className="row text-center mx-md-5">
 
                     <SectionHeader
-                        header="Are You Looking for Best Resedential Collaboration Services Provider in India Services?"
+                        header="Are You Looking for Commercial Collaboration Services In India?"
                         color="#134377"
                     />
-                    <h4 className='fw-bold'>With SPPL make your collaboration journey pleasurable. We are one of the largest builders/ Residential collaboration company.</h4>
+                    <h4 className='fw-bold'>With SPPL make your collaboration journey pleasurable. We are one of the largest builders/ commercial collaboration company.</h4>
                     <p className='fw-semibold text-muted'>We offer best deals and best built to suit design for your space/plot. All you need to do is sit back and watch the magic happens. We are technologically smart and committed to our client’s specification. Contact us for more information.</p>
                 </div>
             </div>
@@ -45,14 +45,14 @@ export default function ResedentialCollaborationServicesProviderInIndia() {
                         <div className="col-md-6 mb-4 mb-md-0">
                             <h4 className='fw-bold'>Top Residential collaboration in Delhi</h4>
                             <p className='fw-semibold text-muted'>
-                                We are team of ingenious minds, serving the community for 15+ years therefore we know how to execute a project seamlessly. We are single source supplier to our client that makes our quality control management superior and reliable. We make sure your residential collaboration runs smoothly and gives you a pleasurable experience.<br /><br />We transform your space/ plot according to the latest trends and your taste with a small share of ours. We offer wide array of products to our client from floors to ceiling and in between. We are among top builders.
+                               We are team of ingenious minds, serving the community for 15+ years therefore we know how to execute a project seamlessly. We are single source supplier to our client that makes our quality control management superior and reliable. We make sure your commercial collaboration runs smoothly and gives you a pleasurable experience. We transform your space/ plot according to the latest trends and your taste with a small share of ours. We offer wide array of products to our client from floors to ceiling and in between. We are among top builders.
                             </p>
                         </div>
 
                         {/* Right Column - Image */}
                         <div className="col-md-6">
                             <img
-                                src='/images/residential-construction-collaboration.webp'
+                                src='/images/commercial-construction-collaboration.webp'
                                 alt="Pre Engineered Buildings"
                                 className="img-fluid"
                             />

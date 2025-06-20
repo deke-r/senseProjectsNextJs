@@ -17,7 +17,7 @@ const collaborationServices = [
     title: 'Commercial Collaboration',
     description:
       'We offer modern, aesthetical and tailor-made designs with 100% transparency and quality assurance. We build your dream home without taking your name out of it.',
-    link: '/commercial-collaboration-services-in-ahmedabad',
+    link: '/commercial-collaboration-Services-Provider-in-india',
   },
 ];
 

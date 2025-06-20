@@ -34,7 +34,7 @@ const services = [
   {
     icon: 'fa-screwdriver-wrench',
     title: 'Mechanical Electrical Plumbing',
-    link: '/services/mechanicalelectricalplumbing',
+    link: '/mep-services-in-india',
   },
 ];
 

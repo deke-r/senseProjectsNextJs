@@ -62,14 +62,14 @@ export default function CivilConstructionsPage() {
         <div className="container">
         
 
-          <h2 className=" mt-5 mb-4">Quality Management</h2>
-          <p>
+          <h2 className=" mt-5 mb-4 fw-bold">Quality Management</h2>
+          <p className='fw-semibold'>
             We take great pride in our work and always aim for excellence, which leads to outstanding results reflecting high quality. Our primary objective is to fulfill our clients' requirements and exceed their expectations by going the extra mile. We consistently work towards enhancing our processes and methods to achieve reliable and consistent results.
           </p>
-          <p>
+          <p className='fw-semibold'>
             Instead of relying solely on inspections, we promote a culture of quality awareness, aiming for zero defects. To be the preferred choice for our clients, we utilize Total Quality Management and Six Sigma tools, ensuring top-notch quality and completing projects on time.
           </p>
-          <p>
+          <p className='fw-semibold'>
             We value recognition and empowerment, and we encourage our team to enhance their skills to contribute positively towards achieving our organizational goals. We keep ourselves well-informed about the latest equipment and technical advancements to stay up-to-date with industry standards. By implementing lean construction, we minimize wastage in our processes. We evaluate performance using statistical tools and make timely decisions to enhance efficiency.
           </p>
         </div>

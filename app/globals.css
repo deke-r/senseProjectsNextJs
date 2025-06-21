@@ -90,6 +90,9 @@ html, body {
 .text-blue{
     color: #134377;
 }
+.bg-blue{
+    background-color: #134377 !important;
+}
 
 
 .font-pop{
@@ -223,3 +226,92 @@ html, body {
     width: 100%;
     max-width: 400px;
   }
+
+
+  
+
+
+  
+.hover-career-card {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: background-color 0.7s ease-in-out;
+  z-index: 1;
+}
+
+.hover-career-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/bg2-home5.webp');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  z-index: 0;
+}
+
+.hover-career-card:hover::before {
+  opacity: 1;
+}
+
+
+.hover-career-card .card-body,
+.hover-career-card .card-title,
+.hover-career-card .card-text,
+.hover-career-card .btn,
+.hover-career-card .badge,
+.hover-career-card li,
+.hover-career-card .icon-wrapper {
+  position: relative;
+  z-index: 2;
+  transition: color 0.7s ease-in-out;
+}
+
+
+.hover-career-card .card-title,
+.hover-career-card .card-text,
+.hover-career-card li {
+  color: black !important;
+}
+
+.hover-career-card:hover .card-title,
+.hover-career-card:hover .card-text,
+.hover-career-card:hover li {
+  color: white !important;
+}
+
+
+.hover-career-card .badge {
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+.hover-career-card:hover .badge {
+  filter: brightness(1.1);
+  color: #fff !important;
+}
+
+
+.hover-career-card .icon-wrapper svg {
+  transition: color 0.7s ease;
+  color: green;
+}
+
+.hover-career-card:hover .icon-wrapper svg {
+  color: white !important;
+}
+
+
+.hover-career-card .btn {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+.hover-career-card:hover .btn {
+  background-color: #0056b3;
+  color: #fff !important;
+}
+

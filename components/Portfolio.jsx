@@ -1,157 +1,64 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import "../styles/Portfolio.css"
+import { useState, useEffect } from "react";
+import "../styles/Portfolio.css";
 
-const portfolioData = [
-  {
-    id: 1,
-    category: "chicago",
-    title: "Chicago Pizza Delhi",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "first",
-  },
-  {
-    id: 2,
-    category: "chicago",
-    title: "Chicago Pizza Delhi",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "",
-  },
-  {
-    id: 3,
-    category: "chicago",
-    title: "Chicago Pizza Delhi",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "",
-  },
-  {
-    id: 4,
-    category: "chicagof",
-    title: "Chicago Pizza Faridabad",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "second",
-  },
-  {
-    id: 5,
-    category: "chicagof",
-    title: "Chicago Pizza Faridabad",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "second",
-  },
-  {
-    id: 6,
-    category: "residence",
-    title: "Residence Vasant Vihar",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 7,
-    category: "residence",
-    title: "Residence Vasant Vihar",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 8,
-    category: "guest",
-    title: "Guest House Jasola",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 9,
-    category: "guest",
-    title: "Guest House Jasola",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 10,
-    category: "marco",
-    title: "Marco Aldany",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 11,
-    category: "marco",
-    title: "Marco Aldany",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 12,
-    category: "hyundai",
-    title: "Hyundai Lucknow",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 13,
-    category: "nishi",
-    title: "Nishi Bag Delhi",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 14,
-    category: "solis",
-    title: "Solis Noida",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 15,
-    category: "iti",
-    title: "ITI Office Hyderabad",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-  {
-    id: 16,
-    category: "decathlon",
-    title: "Decathlon Jaipur",
-    image: "/placeholder.svg?height=300&width=400",
-    className: "third",
-  },
-]
+// Add count for each category based on actual number of images
+const categories = [
+  { key: "chicago", title: "Chicago Pizza Delhi", prefix: "CHICAGO", count: 9 },
+  { key: "chicagof", title: "Chicago Pizza Faridabad", prefix: "CF", count: 9 },
+  { key: "residence", title: "Residence Vasant Vihar", prefix: "VASANT", count: 8 },
+  { key: "guest", title: "Guest House Jasola", prefix: "guest-house", count: 9 },
+  { key: "marco", title: "Marco Aldany", prefix: "marco-aldany", count: 2 },
+  { key: "hyundai", title: "Hyundai Lucknow", prefix: "hyundai-lucknow", count: 1 },
+  { key: "nishi", title: "Nishi Bag Delhi", prefix: "nishi-bag", count: 1 },
+  { key: "solis", title: "Solis Noida", prefix: "solis-noida", count: 1 },
+  { key: "iti", title: "ITI Office Hyderabad", prefix: "itl-office", count: 1 },
+  { key: "decathlon", title: "Decathlon Jaipur", prefix: "decathlon-jaipur", count: 1 },
+];
+
+const portfolioData = categories.flatMap((cat, index) =>
+  Array.from({ length: cat.count }, (_, i) => {
+    const padded = String(i + 1).padStart(2, "0");
+    return {
+      id: index * 100 + i + 1,
+      category: cat.key,
+      title: cat.title,
+      image: `/images/projects/${cat.prefix}-${padded}.webp`,
+      className: "",
+    };
+  })
+);
+
 
 const filterOptions = [
   { key: "all", label: "All", filter: "all" },
-  { key: "chicago", label: "Chicago Pizza Delhi", filter: "chicago" },
-  { key: "chicagof", label: "Chicago Pizza Faridabad", filter: "chicagof" },
-  { key: "residence", label: "Residence Vasant Vihar", filter: "residence" },
-  { key: "guest", label: "Guest House Jasola", filter: "guest" },
-  { key: "marco", label: "Marco Aldany", filter: "marco" },
-  { key: "hyundai", label: "Hyundai Lucknow", filter: "hyundai" },
-  { key: "nishi", label: "Nishi Bag Delhi", filter: "nishi" },
-  { key: "solis", label: "Solis Noida", filter: "solis" },
-  { key: "iti", label: "ITI Office Hyderabad", filter: "iti" },
-  { key: "decathlon", label: "Decathlon Jaipur", filter: "decathlon" },
-]
+  ...categories.map((cat) => ({
+    key: cat.key,
+    label: cat.title,
+    filter: cat.key,
+  })),
+];
 
 const Portfolio = () => {
-  const [activeFilter, setActiveFilter] = useState("all")
-  const [filteredItems, setFilteredItems] = useState(portfolioData)
+  const [activeFilter, setActiveFilter] = useState("all");
+  const [filteredItems, setFilteredItems] = useState(portfolioData);
 
   useEffect(() => {
     if (activeFilter === "all") {
-      setFilteredItems(portfolioData)
+      setFilteredItems(portfolioData);
     } else {
-      setFilteredItems(portfolioData.filter((item) => item.category === activeFilter))
+      setFilteredItems(portfolioData.filter((item) => item.category === activeFilter));
     }
-  }, [activeFilter])
+  }, [activeFilter]);
 
   const handleFilterClick = (filter) => {
-    setActiveFilter(filter)
-  }
+    setActiveFilter(filter);
+  };
 
   return (
     <section className="portfolio-section py-5">
       <div className="container-fluid">
-
         <div className="container">
           <div className="portfolio-tab mb-5">
             <ul id="filters" className="clearfix d-flex flex-wrap justify-content-center">
@@ -173,7 +80,7 @@ const Portfolio = () => {
                 <div className={`portfolio ${item.category}`} data-cat={item.category}>
                   <div className={`portfolio-wrapper ${item.className}`}>
                     <div className="portfolio-bg">
-                      <img src={item.image || "/placeholder.svg"} className="img-fluid" alt={item.title} />
+                      <img src={item.image} className="img-fluid" alt={item.title} />
                     </div>
                     <div className="label">
                       <div className="label-text">
@@ -186,10 +93,11 @@ const Portfolio = () => {
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

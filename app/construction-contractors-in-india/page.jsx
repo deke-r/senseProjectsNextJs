@@ -29,13 +29,13 @@ export default function CivilConstructionsPage() {
             {/* Left Column - Text */}
             <div className="col-md-6 mb-4 mb-md-0">
               <p className='fw-semibold'>
-                We are the top construction contractors in India. We handle everything from planning, buying, and building to finishing and giving the project to the End-User.
+              We are the top construction contractors in India. We handle everything from planning, buying, and building to finishing and giving the project to the End-User.
               </p>
               <p className='fw-semibold'>
-                Sense Projects Pvt. Ltd. is famous in the Building & Housing field. With expertise, experience, and skilled workers, we can do any type of building project across India. We offer great support for India's growing infrastructure.
+              Sense Projects Pvt. Ltd. is a well known company in the Building and Housing sector. With expertise, experience, and skilled workers, we can do any type of building project across India. We offer great support for India's growing infrastructure.
               </p>
               <p className='fw-semibold'>
-                In his 2017 Independence Day speech, Prime Minister Narendra Modi emphasized the importance of building a 'New India' by 2022. One of the crucial aspects of 'New India' is its infrastructure, as it will lay the foundation for future success. As a rapidly growing Engineering, Procurement, and Construction (EPC) company in India, Sense Projects Private Limited is actively supporting India's vision for growth. We contribute effectively by utilizing our execution process and engineering knowledge along India's path to progress.
+               Hon'ble Prime Minister Shri. Narendra Modi, during his 2017 Independence Day address, underscored the vision of building a 'New India' by 2022. One of the crucial aspects of 'New India' is its infrastructure, as it will lay the foundation for future success. As a rapidly growing Engineering, Procurement, and Construction (EPC) company in India, Sense Projects Private Limited is actively supporting India's vision for growth. We contribute effectively by utilizing our execution process and engineering knowledge along India's path to progress.
               </p>
             </div>
 
@@ -51,7 +51,7 @@ export default function CivilConstructionsPage() {
 
           <div className="row">
           <p className='fw-semibold mt-2'>
-            We have dedicated design and engineering teams that utilize advanced construction methods to successfully complete complex projects in various terrains.<br/> With our background in infrastructure, commercial, and residential construction, we bring valuable expertise to each project. This is why we are the preferred<br/> civil construction contractors, trusted to deliver quality results.
+          We have dedicated design and engineering teams that utilize advanced construction methods to successfully complete complex projects in various terrains.<br/> With our background in infrastructure, commercial, and residential construction, we bring valuable expertise to each project. This is why we are the preferred<br/> civil construction contractors, trusted to deliver quality results.
           </p>
           </div>
         </div>
@@ -64,14 +64,12 @@ export default function CivilConstructionsPage() {
 
           <h2 className=" mt-5 mb-4 fw-bold">Quality Management</h2>
           <p className='fw-semibold'>
-            We take great pride in our work and always aim for excellence, which leads to outstanding results reflecting high quality. Our primary objective is to fulfill our clients' requirements and exceed their expectations by going the extra mile. We consistently work towards enhancing our processes and methods to achieve reliable and consistent results.
+           We take great pride in our work and always aim for excellence, which leads to outstanding results reflecting high quality. Our primary objective is to fulfill our clients' requirements and exceed their expectations by going the extra mile. We consistently work towards enhancing our processes and methods to achieve reliable and consistent results. Instead of relying solely on inspections, we promote a culture of quality awareness, aiming for zero defects. To be the preferred choice for our clients, we utilize Total Quality Management and six sigma tools, ensuring top-notch quality and completing projects on time.
           </p>
           <p className='fw-semibold'>
-            Instead of relying solely on inspections, we promote a culture of quality awareness, aiming for zero defects. To be the preferred choice for our clients, we utilize Total Quality Management and Six Sigma tools, ensuring top-notch quality and completing projects on time.
+           We value recognition and empowerment, and we encourage our team to enhance their skills to contribute positively towards achieving our organizational goals. We keep ourselves well-informed about the latest equipment and technical advancements to stay up-to-date with industry standards. By implementing lean construction, we minimize wastage in our processes. We evaluate performance using statistical tools and make timely decisions to enhance efficiency.
           </p>
-          <p className='fw-semibold'>
-            We value recognition and empowerment, and we encourage our team to enhance their skills to contribute positively towards achieving our organizational goals. We keep ourselves well-informed about the latest equipment and technical advancements to stay up-to-date with industry standards. By implementing lean construction, we minimize wastage in our processes. We evaluate performance using statistical tools and make timely decisions to enhance efficiency.
-          </p>
+
         </div>
       </section>
 

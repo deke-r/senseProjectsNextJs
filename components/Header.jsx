@@ -57,7 +57,7 @@ const Header = () => {
           <img src="/images/Sense_project_logo.png" alt="SPPL" className="w-50" />
         </Link>
         <button
-          className="navbar-toggler border-0"
+          className="navbar-toggler border-0 shadow-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"

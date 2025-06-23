@@ -62,9 +62,7 @@ const AboutWhoWeAre = () => {
                     <div className="mb-16">
                         <SectionHeader header="Sense Projects – A Name of Trust" color="#134377" />
                         <p className="text-gray-700 text-secondary leading-7 font-pop  font-semibold">
-                            Since inception, our greatest achievement has been earning our clients' trust. We aim for excellence in every project, large or small—
-                            from major constructions to refurbishments and fit-outs. Our skilled in-house team, including engineers, architects, and designers,
-                            ensures each project meets the highest quality standards with client satisfaction at the forefront.
+                           Since our inception year, we have accomplished client’s faith and that’s what we consider as our success. We have reputation of striving towards the enhancement and perfection on every project that we undertake, regardless of its size. Thus, from major construction and building projects through the provisions of refurbishment services, designing and fit out- our services extend to all the big and small sphere of building and construction. Our highly trained in-house team of engineers, architects, designer apply their specialised skill set of knowledge to efficiently produce high quality service at your delight.
                         </p>
                     </div>
 
@@ -72,15 +70,25 @@ const AboutWhoWeAre = () => {
                     <div>
                         <SectionHeader header="Strict Quality Control & Experience" color="#134377" />
                         <p className="text-gray-700 text-secondary leading-7 font-pop mb-4  font-semibold">
-                            Our team collaborates closely with clients, sourcing materials directly from manufacturers to ensure top quality.
-                            Regular site audits are conducted by technical experts to maintain standards in work quality, pace, and safety.
+                           Our personnel are extremely capable of coordinating and understanding the client’s perspective, as our clients are our greatest advocates and thus, we offer all our services keeping in view of their needs and desires. We are meticulous about quality of the services we provide, to resist risk we procured most of the material centrally I.e., Purchased directly from the companies instead of distributors to ensure best available material is being used furthermore, regular reviews by subject/ Technical experts in order to check work done, quality of raw material, pace of work and safety concerns. In this way we work diligently, efficiently and effectively.
                         </p>
-                        <p className="text-gray-700 text-secondary leading-7 font-pop font-semibold">
-                            With over 2000 satisfied clients, we’ve built a legacy of excellence across commercial, residential, retail, hospitality,
-                            institutional, industrial, and road projects. Our experienced workforce includes project engineers, site and safety engineers,
-                            architects, technicians, and laborers committed to quality and precision.
+ 
+                    </div>
+
+                </div>
+
+
+                   <div className="container px-4 mx-auto">
+
+                    {/* Section 2: Trust & Quality */}
+                    <div className="mb-16">
+                        <SectionHeader header="Experience" color="#134377" />
+                        <p className="text-gray-700 text-secondary leading-7 font-pop  font-semibold">
+                          There is an old saying “perfection comes after practice and experience”, with over 2000 happy clients Sense Projects is now an old handed team of professionals, setting benchmark with each passing year. Awarded as the best construction company, our work includes Commercial, Residential, Hotels, Resorts, retail, shopping malls, Restaurants, institutions, Landscaping, industrials, Hospitals and road services. Our work force includes of veterans; project engineers n architect, site engineers, safety engineers, technicians and labours.
                         </p>
                     </div>
+
+ 
 
                 </div>
             </section>
@@ -122,10 +130,10 @@ const AboutWhoWeAre = () => {
                             <div className="p-4 bg-white shadow rounded h-100 mission-box">
                                 <h5 className="text-o fw-bold mb-3 font-pop">MISSION</h5>
                                 <p className='font-pop'>
-                                    To provide quality workmanship and customer service while maintaining the highest level of professionalism, honesty, and fairness in relationships with our clients, employees, and vendors. To continuously grow by offering significant services and expanding into new areas that build on our core strengths.
+                                   Our mission is to deliver exceptional construction services that exceed customer expectations through superior quality and competitive pricing. We aim to build lasting relationships based on trust, customer satisfaction, and repeat business, achieved through attention to detail, timeliness, and a service-oriented approach.
                                 </p>
                                 <p className='font-pop'>
-                                    Sense Projects Pvt. Ltd. is a full-service construction company whose mission is to build lasting relationships by serving perfection and world-class, hassle-free services — including 24/7 customer support and adherence to global quality standards.
+                                   We are committed to continuous improvement, fairness, efficiency, and pride in our work. By fostering organizational excellence, promoting quality awareness, and investing in the development of both our employees and clients, we strive to create a culture of growth, innovation, and success.
                                 </p>
                             </div>
                         </div>
@@ -134,7 +142,7 @@ const AboutWhoWeAre = () => {
                             <div className="px-4 py-3 bg-white shadow h-100 mt-4 vision-box" style={{ borderLeft: '6px solid #F97306' }}>
                                 <h5 className="text-o fw-bold mb-3 font-pop">VISION</h5>
                                 <p className='font-pop'>
-                                    To be India’s premier engineering, construction, and project management organization by achieving extraordinary results for our customers, building satisfying careers for our people, and delivering fair returns. We aim to be the preferred contractor of choice — a company clients want to work with and employees are proud to work for.
+                                   At Sense Projects Pvt. Ltd., we aspire to uphold our legacy of innovation and excellence in the engineering and construction industry. Our goal is to continue setting new benchmarks, achieving milestones, and raising standards in the market. We envision building world-class infrastructure that reflects the highest quality and principles, contributing to the nation’s development with every project we undertake.
                                 </p>
                             </div>
                         </div>

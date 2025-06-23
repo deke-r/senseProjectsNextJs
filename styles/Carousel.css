@@ -197,3 +197,10 @@
 .carousel-item.active .line {
   animation: lineSlideIn 1s ease forwards;
 }
+
+.carousel-control-prev-icon {
+    background-image:url('/images/prev.png') !important;
+}
+.carousel-control-next-icon {
+    background-image:url('/images/next.png') !important;
+}

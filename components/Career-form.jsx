@@ -89,10 +89,10 @@ export default function CareerForm() {
               {...register("position")}
             >
               <option value="Not specified">Select a position (optional)</option>
-              <option value="Senior Interior Designer">Senior Interior Designer</option>
-              <option value="Interior Supervisor">Interior Supervisor</option>
+              <option value="Senior Project Engineer">Senior Project Engineer</option>
+              <option value="Site Supervisor">Site Supervisor</option>
               <option value="Project Coordinator">Project Coordinator</option>
-              <option value="Design Intern">Design Intern</option>
+              <option value="Civil Engineering Intern">Civil Engineering Intern</option>
               <option value="Other">Other</option>
             </select>
           </div>

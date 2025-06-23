@@ -176,6 +176,10 @@
     opacity: 1;
     visibility: visible;
   }
+  .nav-item .nav-link {
+  color: gray;
+
+}
 }
 
 .dropdown-divider-custom {

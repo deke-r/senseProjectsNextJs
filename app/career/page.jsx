@@ -15,47 +15,46 @@ export default function Career() {
           <h2 className="text-center mb-5">Current Openings</h2>
           <div className="row g-4">
 
-            {/* Job Cards */}
             {[
               {
                 type: "Full-time",
-                title: "Senior Interior Designer",
-                desc: "Lead high-end residential and commercial projects from concept to completion.",
+                title: "Senior Project Engineer",
+                desc: "Lead large-scale residential and commercial construction projects from planning to handover.",
                 points: [
-                  "5+ years of interior design experience",
-                  "Proficiency in AutoCAD, SketchUp, and Photoshop",
-                  "Strong portfolio with luxury design work"
+                  "5+ years of experience in civil engineering or construction management",
+                  "Proficiency in AutoCAD, MS Project, and project tracking tools",
+                  "Strong knowledge of construction codes, safety, and quality standards"
                 ]
               },
               {
                 type: "On-Site",
-                title: "Interior Supervisor",
-                desc: "Oversee and coordinate interior site execution to ensure design fidelity and timely completion.",
+                title: "Site Supervisor",
+                desc: "Oversee daily site operations to ensure project progress, safety compliance, and quality execution.",
                 points: [
-                  "3+ years of experience in interior site supervision",
-                  "Strong understanding of interior drawings and materials",
-                  "Ability to manage labor, vendors, and site timelines"
+                  "3+ years of site supervision experience in construction",
+                  "Ability to read and interpret civil drawings and BOQs",
+                  "Skilled in labor and contractor coordination"
                 ]
               },
               {
                 type: "Full-time",
                 title: "Project Coordinator",
-                desc: "Manage timelines, resources, and execution across multiple projects.",
+                desc: "Manage schedules, documentation, and communication between stakeholders for multiple construction projects.",
                 points: [
-                  "Strong communication and planning skills",
-                  "Experience in vendor and client coordination",
-                  "Interior project execution knowledge"
+                  "Excellent coordination and reporting skills",
+                  "Experience in managing vendors, clients, and procurement",
+                  "Familiar with construction timelines and execution workflows"
                 ]
               },
               {
                 type: "Internship",
-                title: "Design Intern",
+                title: "Civil Engineering Intern",
                 badgeClass: "bg-warning text-dark",
-                desc: "Kickstart your design career with hands-on mentorship and real projects.",
+                desc: "Gain hands-on experience in construction project workflows under the guidance of experienced engineers.",
                 points: [
-                  "Basic design principles and software skills",
-                  "Eagerness to learn and grow",
-                  "Degree or diploma in Interior Design"
+                  "Basic understanding of civil engineering concepts and drawings",
+                  "Strong learning attitude and field adaptability",
+                  "Pursuing or completed a degree/diploma in Civil Engineering"
                 ]
               }
             ].map((job, idx) => (
@@ -98,7 +97,7 @@ export default function Career() {
                 <div className="card-body p-5">
                   <h2 className="text-center mb-4 card-text">Get in Touch</h2>
                   <p className="text-center mb-4 card-text">
-                    Interested in joining our interior design team? Fill out the form and we’ll connect with you.
+                    Interested in joining our construction team? Fill out the form and we’ll connect with you.
                   </p>
                   <CareerForm />
                 </div>

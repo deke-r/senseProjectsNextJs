@@ -45,7 +45,7 @@ const interiorServices = [
 const InternalFitoutServies = () => {
   return (
     <div className="container-fluid">
-      <SectionHeader header="Interior Fit-out Services" color="#134377" />
+      <SectionHeader header="Interior Fit-Out Services Include" color="#134377" />
 
       <div className="container">
         <div className="row gy-4">

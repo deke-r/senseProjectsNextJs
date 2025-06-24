@@ -5,7 +5,7 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <section className="mid-footer pt-50">
+    <section className="mid-footer pb-0 mb-0 pt-50">
       <div className="container ftc pt-5">
         <div className="row">
           <div className="col-md-12 text-center">
@@ -72,6 +72,14 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+       
+      </div>
+      <div className="container-fluid">
+         <div className="row bg-blue py-2 text-light text-center">
+          <div className="col-12">
+          Complete Solution For Construction & Interior Works in PAN India Copyright 2007 ~ 2025 Sense Projects Pvt Ltd All Rights Reserved.
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const collaborationServices = [
 const CollaborationServices = () => {
   return (
     <div className="container-fluid">
-      <SectionHeader header="Best Collaboration Services Provider in Ahmedabad" color="#134377" />
+      <SectionHeader header="Best Collaboration Services Provider in India" color="#134377" />
 
       <div className="container">
         <div className="row gy-4">

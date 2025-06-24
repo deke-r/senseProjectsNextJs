@@ -8,11 +8,11 @@ const BannerTop = ({ page, page2, page3 }) => {
   return (
     <>
       <div className="banner-top banner-top-about" style={{ height: 500 }}>
-        <div className="video-overlay"></div>
+        <div className="video-overlay2"></div>
         <Header />
 
         <div className="container banner-txt font-pop">
-          <h1>{page}</h1>
+          <h2 className='fw-bold'>{page}</h2>
           <h3>
             <Link href="/" style={{ textDecoration: 'none' }}>
 

@@ -8,7 +8,7 @@ const CTASection = (props) => {
         <div className="cta-box p-4  box_sdw10">
           <div className="row align-items-center">
             <div className="col-md-9 text-center text-md-start">
-              <h3 className="fw-bold mb-2 font-pop">{props.h3}</h3>
+              <h3 className="fw-bold mb-2 font-pop">Looking for a high-quality construction partner for your residential, commercial, industrial, or hospitality project?<br/> Call now to build with confidence.</h3>
               <p className="mb-0 font-pop">{props.p}</p>
             </div>
             <div className="col-md-3 text-center mt-4 mt-md-0">

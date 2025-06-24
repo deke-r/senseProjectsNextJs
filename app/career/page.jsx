@@ -7,7 +7,7 @@ import PanIndia from "@/components/PanIndia";
 export default function Career() {
   return (
     <>
-      <BannerTop page="Career with us" />
+      <BannerTop page="Career With Us" />
 
       {/* Current Openings Section */}
       <section className="py-5 bg-light" id="openings">
@@ -95,8 +95,8 @@ export default function Career() {
             <div className="col-lg-8">
               <div className="card border-0 shadow hover-career-card">
                 <div className="card-body p-5">
-                  <h2 className="text-center mb-4 card-text">Get in Touch</h2>
-                  <p className="text-center mb-4 card-text">
+                  <h2 className="text-center mb-4 fw-bold card-text">Get in Touch</h2>
+                  <p className="text-center mb-4 f_15 fw-bold card-text">
                     Interested in joining our construction team? Fill out the form and we’ll connect with you.
                   </p>
                   <CareerForm />

@@ -11,7 +11,7 @@ export default function ResedentialCollaborationServicesProviderInIndia() {
     return (
         <>
             {/* Top Banner */}
-            <BannerTop page="Resedential Collaboration Services Provider in India" page2="Services" />
+            <BannerTop page="Residential Collaboration Services Provider in India" page2="Services" />
             <div className="container">
                 <div className="row text-center mx-md-5">
 

@@ -91,8 +91,8 @@ const Header = () => {
 
             <li className="nav-item"><Link href="/certification" className="nav-link">CERTIFICATION</Link></li>
             <li className="nav-item"><Link href="/our-projects" className="nav-link">PROJECTS</Link></li>
-            <li className="nav-item"><Link href="/contact" className="nav-link">CONTACT</Link></li>
             <li className="nav-item"><Link href="/career" className="nav-link">CAREER</Link></li>
+            <li className="nav-item"><Link href="/contact" className="nav-link">CONTACT</Link></li>
           </ul>
         </div>
       </div>

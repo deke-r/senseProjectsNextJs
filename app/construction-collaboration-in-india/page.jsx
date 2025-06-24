@@ -50,7 +50,7 @@ export default function ConstructionCollaborationInIndia() {
  
 
       {/* Process Header */}
-      <SectionHeader header="Our processes" color="#134377" />
+      <SectionHeader header="Our collaboration processes" color="#134377" />
 
       {/* Process List */}
       <section className="services-list-section ptb-50">
@@ -59,42 +59,27 @@ export default function ConstructionCollaborationInIndia() {
             <ul>
               {[
                 {
-                  title: 'Project Initiation',
+                  title: 'Evaluation of Property & Legal Documentation',
                   steps: [
-                    'Detailed site assessment [drawing, suggestions & challenges]',
-                    'Engineering & Technological assessments',
-                    'Work breakdown structure',
-                    'Establishing the prototype',
-                  ],
-                },
-                {
-                  title: 'Feasibility Study',
-                  steps: [
-                    'Understanding BOM, BOQ and SOM',
-                    'Meticulous project scheduling',
-                    'Examine all potential threats & solutions',
-                    'Communication with our client',
+                    "Our process begins with a thorough evaluation of your property's value by our technical team. Based on this assessment, we present you with the best possible deal. To maintain full transparency, all transactions are backed by legally documented agreements.",
+                   
                   ],
                 },
                 {
                   title: 'Execution',
                   steps: [
-                    'Detailed Project implementation plan',
-                    'Precise Execution',
-                    'Critical path identification & reduction plan',
-                    'Monitoring and controlling',
-                    'Implementation of Engineering and Technicalities',
-                    'Communication [daily reports, weekly audits and reviews etc]',
+                    'This stage is particularly exciting, as we handle all the complexities while you enjoy selecting the design elements—such as raw materials, furnishings, color schemes, ceiling designs, and more',
+                   
                   ],
                 },
                 {
-                  title: 'Project Report',
+                  title: 'Handover',
                   steps: [
-                    'Checklist of completed work',
-                    'Checking and audits',
-                    'Final report & Handover',
+                  "'We deliver a high-quality finish backed by a 10-year warranty*, ensuring long-lasting value and peace of mind. Our commitment to excellence guarantees durability, safety, and satisfaction in every project.*Terms & conditions apply."
+                  
                   ],
                 },
+               
               ].map((item, idx) => (
                 <li key={idx}>
                   <div className="process-content">
@@ -102,8 +87,8 @@ export default function ConstructionCollaborationInIndia() {
                     <table>
                       {item.steps.map((step, sIdx) => (
                         <tr key={sIdx}>
-                          <td>
-                            <i className="fas fa-chevron-circle-right"></i> {step}
+                          <td className='text-justify text-muted '>
+                           {step}
                           </td>
                         </tr>
                       ))}

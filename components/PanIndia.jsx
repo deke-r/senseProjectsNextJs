@@ -10,7 +10,7 @@ const PanIndia = () => {
     <SectionHeader header='Pan-India Presence' color='#134377'/>
     <div className="container-fluid font-pop font-semibold d-flex justify-content-center align-items-center text-center h-100">
 
-    <p>We understand your time is valuable, so we are very straightforward with our pricing. <br/>Knowing your situation will help us give you the information you need start developing a trusting relationship from day one.</p>
+    <p>We recognize the value of your time and are committed to maintaining transparency in our pricing.<br/> Gaining a clear understanding of your specific circumstances enables us to provide accurate information <br/>and foster a foundation of trust from the outset.</p>
 
     </div>
     </div>

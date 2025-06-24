@@ -9,14 +9,14 @@ const collaborationServices = [
     icon: 'fa-house-circle-check',
     title: 'Residential Collaboration',
     description:
-      'Quality trusted Ahmedabad Building Construction Company, focusing on Ahmedabad prime residential building projects, extensions, conversions and refurbishments.',
+      'A premium construction company in India, trusted for delivering high-end residential projects, bespoke extensions, stylish conversions, and luxury refurbishments — with a focus on craftsmanship, innovation, and timeless design.',
     link: '/resedential-collaboration-Services-Provider-in-india',
   },
   {
     icon: 'fa-building',
     title: 'Commercial Collaboration',
     description:
-      'We offer modern, aesthetical and tailor-made designs with 100% transparency and quality assurance. We build your dream home without taking your name out of it.',
+      'We create modern, bespoke, and aesthetically refined designs with complete transparency, exceptional craftsmanship, and uncompromised quality. Your dream home — built with integrity, care, and a vision that reflects you.  ',
     link: '/commercial-collaboration-Services-Provider-in-india',
   },
 ];
@@ -45,7 +45,7 @@ const CollaborationServices = () => {
                 >
                   {service.title}
                 </h3>
-                <p style={{ color: '#52565E', fontSize: 14 }}>
+                <p style={{ color: '#52565E', fontSize: 14 }} className='text-justify'>
                   {service.description}
                 </p>
                 <Link href={service.link} className="readmore stretched-link">

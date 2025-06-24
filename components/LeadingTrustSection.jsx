@@ -70,7 +70,7 @@ const LeadingTrustSection = () => {
 
   return (
     <section className="bg-fix-content position-relative py-5" ref={sectionRef}>
-      <div className="video-overlay"></div>
+      <div className="video-overlay2"></div>
       <div className="container py-5 px-md-3">
         <div className="row">
           {/* Left Column */}

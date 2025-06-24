@@ -18,7 +18,7 @@ const Contact = () => {
             {/* Address Info */}
             <div className="col-lg-5">
               <div className="info-card shadow-sm p-4 mb-4">
-                <SectionHeader header="Headquarters" color="#134377" />
+                <SectionHeader header="Headquarter" color="#134377" />
                 <p className="f_16 font-pop a7 font-semibold">
                   <strong className="text-o"><i className="fa-solid fa-location-dot"></i></strong>{' '}
                   DLF Prime Tower, Okhla Phase 1, Delhi-110020
@@ -86,7 +86,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="col-lg-7">
               <div className="form-card shadow-sm p-5">
-                <SectionHeader header="Send us a Message" color="#134377" />
+                <SectionHeader header="Send Us A Message" color="#134377" />
                 <ContactForm />
               </div>
             </div>

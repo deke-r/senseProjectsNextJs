@@ -67,6 +67,17 @@ html, body {
     z-index: 1; /* Keep the overlay behind the text */
   }
   
+
+  .video-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5); /* 50% black overlay */
+    z-index: 1; /* Keep the overlay behind the text */
+  }
+  
   .leading-content,.counter-section{
     position: relative;
     z-index: 10; /* Ensure this content is above the overlay */
@@ -315,3 +326,21 @@ html, body {
   color: #fff !important;
 }
 
+.f_8  { font-size: clamp(6px, 0.5vw, 8px); }
+.f_9  { font-size: clamp(7px, 0.6vw, 9px); }
+.f_10 { font-size: clamp(8px, 0.7vw, 10px); }
+.f_11 { font-size: clamp(9px, 0.75vw, 11px); }
+.f_12 { font-size: clamp(10px, 0.8vw, 12px); }
+.f_13 { font-size: clamp(11px, 0.85vw, 13px); }
+.f_14 { font-size: clamp(12px, 0.9vw, 14px); }
+.f_15 { font-size: clamp(13px, 1vw, 15px); }
+.f_16 { font-size: clamp(14px, 1.05vw, 16px); }
+.f_17 { font-size: clamp(15px, 1.1vw, 17px); }
+.f_18 { font-size: clamp(16px, 1.15vw, 18px); }
+.f_19 { font-size: clamp(17px, 1.2vw, 19px); }
+.f_20 { font-size: clamp(18px, 1.25vw, 20px); }
+
+
+.text-justify {
+  text-align: justify !important;
+}

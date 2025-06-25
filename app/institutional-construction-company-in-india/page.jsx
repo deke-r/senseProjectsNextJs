@@ -26,7 +26,7 @@ const IC = () => {
             <h5 className='text-center fw-bold'></h5>
             <div className="container my-5">
 
-                <p className='fw-semibold text-secondary'>Sense Projects Pvt. Ltd has been a leading Institutional Construction Company in India since 2007. We specialize in providing customized and personalized solutions, along with cost-effective services. As the most trusted Construction Contractor, we employ a comprehensive design-build approach that optimizes spaces and ensures the best possible use of them. Our focus also extends to prime Institutional Construction projects, prioritizing quality and client satisfaction.</p>
+                <p className='fw-semibold text-secondary text-justify'>Sense Projects Pvt. Ltd has been a leading Institutional Construction Company in India since 2007. We specialize in providing customized and personalized solutions, along with cost-effective services. As the most trusted Construction Contractor, we employ a comprehensive design-build approach that optimizes spaces and ensures the best possible use of them. Our focus also extends to prime Institutional Construction projects, prioritizing quality and client satisfaction.</p>
             </div>
 
 
@@ -49,7 +49,7 @@ const IC = () => {
                                   
                                 </h4>
                             </div>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                Sense Projects is a reputable construction company that has been operating since 2007. We provide top-quality services for various sectors. We focus on construction and renovation projects for educational institutions, such as <span className='text-dark'> schools, colleges, and universities.</span> Additionally, we have he team of experienced and professionals who know how to design and construct government administrative buildings that combine functionality with appealing aesthetics. Our expertise also extends to building research laboratories and scientific institutions to facilitate advancements in various fields. Furthermore, we have a creative team capable of designing and constructing libraries, museums, and cultural centers that contribute to knowledge and art appreciation within communities. Trust Sense Projects for your institutional construction needs and witness exceptional results.
                             </p>
                         </div>

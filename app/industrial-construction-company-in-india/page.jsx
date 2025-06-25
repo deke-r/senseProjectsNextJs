@@ -25,7 +25,7 @@ const IC = () => {
             <h5 className='text-center fw-bold'>“WE BUILD, THAT LONG LASTS”</h5>
             <div className="container mb-5 mt-3">
 
-                <p className='fw-semibold text-secondary'>Sense Projects is one of the trusted industrial construction companies in India since 2007. We deliver exceptional Industrial solutions. We are experts in industrial projects. We have an experienced team who delivers high-quality results. If you are looking for a reliable construction company for your industrial projects, choose Sense Projects for all your construction needs.</p>
+                <p className='fw-semibold text-secondary text-justify'>Sense Projects is one of the trusted industrial construction companies in India since 2007. We deliver exceptional Industrial solutions. We are experts in industrial projects. We have an experienced team who delivers high-quality results. If you are looking for a reliable construction company for your industrial projects, choose Sense Projects for all your construction needs.</p>
             </div>
 
 
@@ -48,7 +48,7 @@ const IC = () => {
                                      <span className='text-warning'></span>
                                 </h4>
                             </div>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                Sense Projects focuses on various types of construction projects related to industries. Our work involves designing, building, and maintaining structures specifically for industrial purposes. These structures may include <span className='text-dark'> manufacturing plants, warehouses, distribution centers, power plants, refineries, logistics centers, research and development facilities, cold storage facilities, data centers, and more. We have professionals with expertise in engineering, architecture, project management, and construction techniques </span>. We make sure that the buildings are constructed to meet safety standards, accommodate specialized equipment, and provide an efficient workflow for industrial processes. Our company is well-known for achieving high-quality standards, meeting deadlines, optimizing spaces, and solving on-site risks with the help of our dedicated project experts.
                             </p>
                         </div>

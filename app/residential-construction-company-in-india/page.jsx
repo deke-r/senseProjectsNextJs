@@ -25,7 +25,7 @@ const ResidentialConstruction = () => {
             <h5 className='text-center mt-5 fw-bold'>“ YOUR WISH IS OUR COMMAND”</h5>
             <div className="container mb-5">
 
-                <p className='fw-semibold text-secondary'>Sense Projects Pvt. Ltd., a luxury residential construction company since 2007. We specialize in designing and building exceptional homes. With a team of skilled architects and designers, we turn your dream home into a reality. Our focus is on delivering premium construction services at an affordable price, without compromising on quality. With over a decade of experience in the industry, we bring expertise and learning from each project to ensure excellence in every endeavor. Trust us to provide world-class amenities and timely project completion, as we continue to grow and learn with every project we undertake.</p>
+                <p className='fw-semibold text-secondary text-justify'>Sense Projects Pvt. Ltd., a luxury residential construction company since 2007. We specialize in designing and building exceptional homes. With a team of skilled architects and designers, we turn your dream home into a reality. Our focus is on delivering premium construction services at an affordable price, without compromising on quality. With over a decade of experience in the industry, we bring expertise and learning from each project to ensure excellence in every endeavor. Trust us to provide world-class amenities and timely project completion, as we continue to grow and learn with every project we undertake.</p>
             </div>
 
 
@@ -48,7 +48,7 @@ const ResidentialConstruction = () => {
                                     Constructing Dreams, <span className='text-warning'>Brick by Brick</span>
                                 </h4>
                             </div>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                 Sense Projects provides residential building works. We not only deliver high-quality work, but we also guide you
                                 throughout the entire construction process. Our primary service revolves around constructing new homes. We
                                 construct homes from scratch, turning your dreams into a tangible reality. Furthermore, we specialize in
@@ -80,7 +80,7 @@ const ResidentialConstruction = () => {
                                     Leading <span className='text-warning'>Residential Construction Contractors</span> in India
                                 </h4>
                             </div>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                 Sense Projects Pvt. Ltd. is an award-winning home building contractor in India. Since 2007, we have become one
                                 of the top construction companies. Our premium services include high-quality materials, skilled workers, and a
                                 qualified technical team, gained through valuable experience.

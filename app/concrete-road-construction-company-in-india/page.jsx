@@ -19,8 +19,8 @@ export default function ConcreteRoadConstructionCompanyInIndia() {
                         header="Looking for the Best Road Construction Companies in India? We’ve Got You Covered!"
                         color="#134377"
                     />
-                    <h4 className='fw-bold'>SPPL specializes in designing, constructing, managing, and maintaining road networks across India. With advanced technology and expert engineers, we are among the most trusted road construction contractors.</h4>
-                    <p className='fw-semibold text-muted'>Technological advancement and best engineers make us most reliant roads construction contractors in india. Always looking forward to assist you, contact us for more information.</p>
+                    <h4 className='fw-bold text-justify'>SPPL specializes in designing, constructing, managing, and maintaining road networks across India. With advanced technology and expert engineers, we are among the most trusted road construction contractors.</h4>
+                    <p className='fw-semibold text-muted text-justify'>Technological advancement and best engineers make us most reliant roads construction contractors in india. Always looking forward to assist you, contact us for more information.</p>
                 </div>
             </div>
 
@@ -43,10 +43,10 @@ export default function ConcreteRoadConstructionCompanyInIndia() {
                     <div className="row align-items-center">
                         {/* Left Column - Text */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                               With a legacy of over 14 years, SPPL has established itself as a leader in road construction, consistently delivering high-quality projects on time. We specialize in the execution of technically complex and high-value infrastructure projects across diverse segments, including expressways, national highways, flyovers, bridges, institutional, commercial, and residential complexes.
                             </p>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                 Our proven expertise ensures flawless execution at every stage of the project. As a single-source supplier, we offer end-to-end solutions with superior quality control, making us one of the most reliable and high-performing road construction contractors in India.
                             </p>
                         </div>
@@ -70,10 +70,10 @@ export default function ConcreteRoadConstructionCompanyInIndia() {
   <div className="container my-2">
     <div className="row">
       <h4 className="fw-bold">Who We Are</h4>
-      <p className="fw-semibold mt-2 text-muted">
+      <p className="fw-semibold mt-2 text-muted text-justify">
         With over 14 years of proven excellence, SPPL is a trusted name in road construction, specializing in delivering technically complex and high-value infrastructure projects on time and within budget. Our expertise spans expressways, national highways, flyovers, bridges, institutional, commercial, residential complexes, and more.
       </p>
-      <p className="fw-semibold text-muted mt-2">
+      <p className="fw-semibold text-muted mt-2 text-justify">
         As a single-source supplier, we ensure complete control over quality management, making us one of the most reliable industrial road construction contractors in India.
       </p>
     </div>
@@ -88,10 +88,10 @@ export default function ConcreteRoadConstructionCompanyInIndia() {
         <i className="fas fa-chevron-right text-blue me-2" aria-hidden="true"></i>
         Concrete Road Contractors in India
       </p>
-      <p className="fw-semibold text-muted mt-2">
+      <p className="fw-semibold text-muted mt-2 text-justify">
         SPPL offers comprehensive, world-class infrastructure development services across India. From initial concept and design to construction, commissioning, tolling, operations, and maintenance — all services are performed by our in-house experts, ensuring consistency, quality, and accountability at every stage.
       </p>
-      <p className="fw-semibold text-muted mt-2">
+      <p className="fw-semibold text-muted mt-2 text-justify">
         Our commitment to timely delivery and exceptional project execution has earned us a remarkable reputation nationwide.
       </p>
     </div>
@@ -102,7 +102,7 @@ export default function ConcreteRoadConstructionCompanyInIndia() {
   <div className="container my-2">
     <div className="row">
       <h4 className="fw-bold">Why Choose SPPL?</h4>
-      <p className="fw-semibold text-muted mt-2">
+      <p className="fw-semibold text-muted mt-2 text-justify">
         We are proud to be recognized as India's No. 1 industrial road construction contractor. Our dedication to unmatched quality, sustainability, and customer satisfaction sets us apart in the infrastructure industry.
       </p>
     </div>

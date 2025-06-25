@@ -19,8 +19,8 @@ export default function BitumenRoadConstructionCompanyInIndia() {
                         header="Looking for trusted and top-rated road construction companies across India?  "
                         color="#134377"
                     />
-                    <h4 className='fw-bold'>SPPL specializes in designing, constructing, managing, and maintaining road networks across India, delivering infrastructure solutions that meet the highest standards of quality and durability.</h4>
-                    <p className='fw-semibold text-muted'>Driven by cutting-edge technology and expert engineering, SPPL stands among the most trusted road construction contractors in India. We look forward to supporting your infrastructure needs—get in touch with us to learn more. </p>
+                    <h4 className='fw-bold text-justify'>SPPL specializes in designing, constructing, managing, and maintaining road networks across India, delivering infrastructure solutions that meet the highest standards of quality and durability.</h4>
+                    <p className='fw-semibold text-muted text-justify'>Driven by cutting-edge technology and expert engineering, SPPL stands among the most trusted road construction contractors in India. We look forward to supporting your infrastructure needs—get in touch with us to learn more. </p>
                 </div>
             </div>
 
@@ -39,11 +39,11 @@ export default function BitumenRoadConstructionCompanyInIndia() {
     <div className="row align-items-center">
 
       <div className="col-md-6 mb-4 mb-md-0">
-        <p className="fw-semibold text-muted">
+        <p className="fw-semibold text-muted text-justify">
           SPPL is recognized as one of India’s top and most trusted road construction contractors, backed by a team of highly experienced architects, engineers, and technical experts. We offer end-to-end construction solutions that meet global standards.
         </p>
 
-        <p className="fw-semibold text-muted">
+        <p className="fw-semibold text-muted text-justify">
           At Sense Projects, we are synonymous with excellence in road construction across India. Our commitment to premium quality, technological innovation, and on-time project delivery sets us apart as a reliable infrastructure partner.
         </p>
 
@@ -88,7 +88,7 @@ export default function BitumenRoadConstructionCompanyInIndia() {
   <div className="container my-2">
     <div className="row">
       <h4 className="fw-bold">Who We Are</h4>
-      <p className="fw-semibold mt-2 text-muted">
+      <p className="fw-semibold mt-2 text-muted text-justify">
         SPPL is a top road construction company in India with over 14 years of experience delivering quality projects on time. We specialize in executing technically complex and high-value projects across multiple segments, including expressways, national highways, flyovers, bridges, institutional, commercial, and residential complexes, as well as other infrastructure works.
         <br /><br />
         As a single-source supplier, we ensure superior and reliable quality control management, enabling flawless project execution. Our proven track record makes us one of the leading and most trusted road construction contractors in India.
@@ -121,7 +121,7 @@ export default function BitumenRoadConstructionCompanyInIndia() {
   <div className="container my-2">
     <div className="row">
       <h4 className="fw-bold">What We Do</h4>
-      <p className="fw-semibold mt-2 text-muted">
+      <p className="fw-semibold mt-2 text-muted text-justify">
         SPPL has emerged as a leading road construction company in India, offering world-class infrastructure development services. We provide comprehensive solutions that consistently deliver better value to end users, neighboring communities, the nation, and all stakeholders.
         <br /><br />
         From concept and construction to commissioning, tolling, operations, and maintenance, all project activities are managed by our in-house experts. Our excellent project execution skills and commitment to timely delivery have earned us a remarkable reputation in a short span, which we strive hard to maintain.

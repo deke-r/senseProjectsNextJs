@@ -26,7 +26,7 @@ const HC = () => {
             <h5 className='text-center fw-bold'></h5>
             <div className="container my-5">
 
-                <p className='fw-semibold text-secondary'>Sense Projects Private Limited is a top-notch hospital construction company with a proven track record since its inception in 2007. We specialize in building the most advanced hospitals that place a priority on patient well-being. Sense Projects Private Limited has built quite a name in the construction industry as we are equipped with highly skilled architects, contractors, and engineers which makes us the most sought choice when it comes to building hospitals.</p>
+                <p className='fw-semibold text-secondary text-justify'>Sense Projects Private Limited is a top-notch hospital construction company with a proven track record since its inception in 2007. We specialize in building the most advanced hospitals that place a priority on patient well-being. Sense Projects Private Limited has built quite a name in the construction industry as we are equipped with highly skilled architects, contractors, and engineers which makes us the most sought choice when it comes to building hospitals.</p>
             </div>
 
 
@@ -49,7 +49,7 @@ const HC = () => {
                                     We Talk About <span className='text-warning'>Class, Comfort And Convenience.</span>
                                 </h4>
                             </div>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                 As a renowned <span className='text-warning'> hospital building company</span>, we are committed to providing excellent facilities that cater to the unique needs of a healthcare facility. Planning, design, construction management, and execution are all included in our all-inclusive solutions for building the hospital. At Sense Projects Private Limited we take care of rigid regulatory standards and integrate the latest advancements in medical infrastructure and technology such as installing advanced HVAC systems. We turn healthcare goals into reality with a commitment to quality, innovation, and timely delivery, making sure that hospitals have the necessary resources to give their patients the best treatment possible as there is an old yet true saying “ Health is Wealth “.
                             </p>
                         </div>

@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
                     transition: 'max-height 0.4s ease',
                   }}
                 >
-                  <div className="accordion-body">
+                  <div className="accordion-body text-justify">
                     We ensure excellence in every aspect—from trained experts and technical accuracy to complete transparency.
                   </div>
                 </div>
@@ -64,10 +64,10 @@ const WhyChooseUs = () => {
         <div className="col-md-6">
             <div className="container">
 
-          <p className="font-pop description">
+          <p className="font-pop description text-justify">
             Sense Projects Private Limited can make your dream construction come true. We operate in all Metro cities, and all across India. Choose Sense Projects for all your construction needs. Our skilled workers, industry connections, and stellar reputation make us the epitome of excellence in construction projects.
           </p>
-          <p className="font-pop description">
+          <p className="font-pop description text-justify">
             Our organised approach, adherence to regulations, and talented team ensure your dream project is built to perfection. Experience the difference with Sense Projects Pvt Ltd. Choose Sense Projects for exceptional quality in residential, commercial, industrial, institutional, and hospitality construction.
           </p>
           </div>

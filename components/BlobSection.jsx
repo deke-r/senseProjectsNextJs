@@ -33,10 +33,10 @@ const BlobSection = () => {
           <div className="col-md-6 blob-text">
             <h5 className="text-blue fw-bold">We are trusted CONSTRUCTION COMPANY</h5>
             <h2 className="fw-bold mb-3">Building a Better Future: Our Trusted Legacy in Construction</h2>
-            <p>
+            <p className='text-justify'>
               Sense Projects Pvt Ltd is a reputed construction company in India. Our construction involves designing and building structures — covering residential, commercial, industrial, and hospitality projects.
             </p>
-            <p>
+            <p className='text-justify'>
               From conceptualising architectural designs to meticulously crafting structures, our dedicated team of architects and engineers ensures excellence at every stage.
             </p>
             <p>

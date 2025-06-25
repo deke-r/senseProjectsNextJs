@@ -25,10 +25,10 @@ export default function ConstructionCollaborationInIndia() {
           <div className="row align-items-center">
             {/* Left Column - Text */}
             <div className="col-md-6 mb-4 mb-md-0">
-                 <h4 className="fw-bold">
+                 <h4 className="fw-bold text-justify">
              SPPL specializes in delivering hassle-free construction of Residential, Commercial, and Real Estate projects. Partner with us to bring your vision to life.
             </h4>
-              <p className='fw-semibold text-muted'>
+              <p className='fw-semibold text-muted text-justify'>
                We are one of the leading builders based in Delhi, with extensive experience in real estate collaboration projects across India. Since 2007, we have continuously evolved, delivering impactful contributions to society through our work. Our team comprises highly experienced professionals from the real estate industry with proven expertise in sourcing, acquiring, managing, and developing real estate projects. We actively operate across the country and are open to collaborations pan-India.
               </p>
             </div>

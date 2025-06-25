@@ -22,11 +22,11 @@ export default function IF() {
         </div>
         <div className="row my-3">
           <h4 className='fw-bold text-center'>Building Strong Foundations for a Better Tomorrow</h4>
-          <p className='fw-semibold'>Sense Projects Pvt. Ltd. – Interior Fit-Out Solutions Across India
+          <p className='fw-semibold text-justify'>Sense Projects Pvt. Ltd. – Interior Fit-Out Solutions Across India
 
-At Sense Projects, we create functional and visually striking interiors for homes, offices, and commercial spaces. From space planning and partitions to ceilings and smart integrations, we handle every detail with precision and care.
+            At Sense Projects, we create functional and visually striking interiors for homes, offices, and commercial spaces. From space planning and partitions to ceilings and smart integrations, we handle every detail with precision and care.
 
-Our expert team ensures seamless execution, transforming your space into a customized environment that reflects your vision and enhances utility.</p>
+            Our expert team ensures seamless execution, transforming your space into a customized environment that reflects your vision and enhances utility.</p>
         </div>
       </div>
 
@@ -47,10 +47,10 @@ Our expert team ensures seamless execution, transforming your space into a custo
           <div className="row align-items-center">
             {/* Left Column - Text */}
             <div className="col-md-6 mb-4 mb-md-0">
-              <p className='fw-semibold'>
-               Sense Projects Pvt. Ltd. is a trusted name in interior fit-out services across India, delivering tailored solutions for homes, offices, and commercial spaces. Our focus is on creating functional, creative, and aesthetically pleasing environments that reflect each client’s vision and purpose.
+              <p className='fw-semibold text-justify'>
+                Sense Projects Pvt. Ltd. is a trusted name in interior fit-out services across India, delivering tailored solutions for homes, offices, and commercial spaces. Our focus is on creating functional, creative, and aesthetically pleasing environments that reflect each client’s vision and purpose.
 
-As demand for professionally designed interiors grows, our expertise stands out. We begin with conceptual design based on your requirements, followed by careful selection of materials, furniture, lighting, and finishes — all managed by experienced architects, interior designers, and contractors.
+                As demand for professionally designed interiors grows, our expertise stands out. We begin with conceptual design based on your requirements, followed by careful selection of materials, furniture, lighting, and finishes — all managed by experienced architects, interior designers, and contractors.
               </p>
             </div>
 
@@ -66,9 +66,9 @@ As demand for professionally designed interiors grows, our expertise stands out.
 
           <div className="row">
             <h4 className='fw-bold my-2'>Interior Fit-Out + Construction Expertise</h4>
-            <p className='fw-semibold mt-2'>
-             From design to execution, Sense Projects handles every stage of fit-out, including partitioning, ceiling installation, electrical and plumbing work, and smart technology integration. We aim to maximize space efficiency while ensuring comfort, quality, and compliance with all industry standards.
-Timely delivery and quality execution are at the core of every project we undertake. Our team works with transparency and precision to ensure excellence from start to finish.
+            <p className='fw-semibold mt-2 text-justify'>
+              From design to execution, Sense Projects handles every stage of fit-out, including partitioning, ceiling installation, electrical and plumbing work, and smart technology integration. We aim to maximize space efficiency while ensuring comfort, quality, and compliance with all industry standards.
+              Timely delivery and quality execution are at the core of every project we undertake. Our team works with transparency and precision to ensure excellence from start to finish.
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ Timely delivery and quality execution are at the core of every project we undert
         <div className="container">
           <div className="process">
             <ul>
-            {[
+              {[
                 {
                   title: 'Project Initiation',
                   steps: [

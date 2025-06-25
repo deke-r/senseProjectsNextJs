@@ -30,7 +30,7 @@ export default function preEngineeredBuildingsCompanyIndia() {
                     <div className="row align-items-center">
                         {/* Left Column - Text */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <p className='fw-semibold'>
+                            <p className='fw-semibold text-justify'>
                                 We are among most preferred PEB contractors in India. We offer advanced and reliable solutions through a combination of quality, timely project execution, safety, and cost efficiency. Our team comprises some of the nation's best technical experts, engineers, designers, managers, and skilled labor. Our PEB structure services are designed technically and precisely by keeping clients' expectations as main objective to achieve. We encourage Pre-engineered buildings that are modern and has futuristic approach as it ensures time-saving, cost-effectiveness and safe construction, since we fabricate PEB structures in our manufacturing plants and then transports all the components to the site to assembled and erect proper structure there with the help of nut bolts. Our top most PEB services in India include PEB Structures, Metal Building Products, Industrial Building, Warehouse Building, Factory, Cold Storage, Heavy Shed, PEB Shed, etc. We have executed a wide range of projects across India for both government and private sectors, including government buildings, commercial complexes, residential developments, high-end villas, as well as interior design and architectural works.
                             </p>
                         </div>
@@ -51,7 +51,7 @@ export default function preEngineeredBuildingsCompanyIndia() {
 
                         </h4>
 
-                        <p className='fw-semibold mt-2'>
+                        <p className='fw-semibold mt-2 text-justify'>
                             We at Sense Projects – design, assemble and install cost-effective pre-engineered steel buildings and building components made to suit a wide range of applications in different industry sectors. PEB gives better speed, quality, and value to the project. One of its key advantages is that it appeals to all stakeholders involved in the project. Our primary focus is on civil works for industrial and warehouse PEB buildings across India. We have successfully undertaken a diverse range of projects across India for both government and private clients, including Government Buildings, Commercial Complexes, Residential Developments, High-end Villas, as well as Interior Design and Architectural Works.
                         </p>
                     </div>

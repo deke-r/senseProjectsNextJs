@@ -81,34 +81,34 @@ const LeadingTrustSection = () => {
                   <span className='text-warning'>Sense Projects:</span> A Name You Can Trust
 
                 </h3>
-                <p className='text-light'>
-             Recognized as one of the top leaders in Design-Build solutions, we pride ourselves on reliable project delivery, innovation, and unwavering trust. Our reputation as a leading home construction company across India is built on consistent quality and client satisfaction.
+                <p className='text-light text-justify'>
+                  Recognized as one of the top leaders in Design-Build solutions, we pride ourselves on reliable project delivery, innovation, and unwavering trust. Our reputation as a leading home construction company across India is built on consistent quality and client satisfaction.
                 </p>
                 <h5 className='text-light'>We Build SMART Goals — a standard we live by:</h5>
-               <ul className="list-unstyled text-light">
-  <li>
-    <i className="fas fa-chevron-right me-2 text-warning"></i>
-    <span className="text-warning">S</span>ervice-oriented
-  </li>
-  <li>
-    <i className="fas fa-chevron-right me-2 text-warning"></i>
-    <span className="text-warning">M</span>aestro of craftsmanship
-  </li>
-  <li>
-    <i className="fas fa-chevron-right me-2 text-warning"></i>
-    <span className="text-warning">A</span>dmirable integrity
-  </li>
-  <li>
-    <i className="fas fa-chevron-right me-2 text-warning"></i>
-    <span className="text-warning">R</span>ealistic solutions
-  </li>
-  <li>
-    <i className="fas fa-chevron-right me-2 text-warning"></i>
-    <span className="text-warning">T</span>ime-sensitive execution
-  </li>
-</ul>
+                <ul className="list-unstyled text-light">
+                  <li>
+                    <i className="fas fa-chevron-right me-2 text-warning"></i>
+                    <span className="text-warning">S</span>ervice-oriented
+                  </li>
+                  <li>
+                    <i className="fas fa-chevron-right me-2 text-warning"></i>
+                    <span className="text-warning">M</span>aestro of craftsmanship
+                  </li>
+                  <li>
+                    <i className="fas fa-chevron-right me-2 text-warning"></i>
+                    <span className="text-warning">A</span>dmirable integrity
+                  </li>
+                  <li>
+                    <i className="fas fa-chevron-right me-2 text-warning"></i>
+                    <span className="text-warning">R</span>ealistic solutions
+                  </li>
+                  <li>
+                    <i className="fas fa-chevron-right me-2 text-warning"></i>
+                    <span className="text-warning">T</span>ime-sensitive execution
+                  </li>
+                </ul>
 
-                <h6 className='text-light'>With Sense Projects, you’re not just building a home — you’re building with purpose, precision, and people who care.</h6>
+                <h6 className='text-light text-justify'>With Sense Projects, you’re not just building a home — you’re building with purpose, precision, and people who care.</h6>
 
               </div>
             </div>
@@ -117,7 +117,7 @@ const LeadingTrustSection = () => {
           {/* Right Column */}
           <div className="col-md-6 counter-section mt-4 mt-md-0">
             <h2 className='text-warning'>Growth By Numbers</h2>
-            <p className="para text-light"> With 14 years of dedicated growth, we’ve established ourselves as a leader in the industry.</p>
+            <p className="para text-light text-justify"> With 14 years of dedicated growth, we’ve established ourselves as a leader in the industry.</p>
             <div className="row">
               {stats.map((stat, index) => (
                 <div className="col-md-4 count-box text-center" key={index}>

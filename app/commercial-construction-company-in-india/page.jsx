@@ -25,7 +25,7 @@ const CC = () => {
             <h5 className='text-center fw-bold'>“We design and build efficiently”</h5>
             <div className="container mb-5 mt-3">
 
-                <p className='fw-semibold text-secondary'>Sense Projects Pvt. Ltd. is a trusted commercial construction company in India. Since 2007, we have excelled in the field of construction. Our highly skilled technical experts make sure perfect and error-free creations without delays. We are reliable, unique, and committed to delivering high-quality projects. Our expertise lies in commercial construction, extensions, conversions, and refurbishments. Trust us to deliver excellence in every project we undertake.</p>
+                <p className='fw-semibold text-secondary text-justify'>Sense Projects Pvt. Ltd. is a trusted commercial construction company in India. Since 2007, we have excelled in the field of construction. Our highly skilled technical experts make sure perfect and error-free creations without delays. We are reliable, unique, and committed to delivering high-quality projects. Our expertise lies in commercial construction, extensions, conversions, and refurbishments. Trust us to deliver excellence in every project we undertake.</p>
             </div>
 
 
@@ -48,7 +48,7 @@ const CC = () => {
                                     We Talk About <span className='text-warning'>Class, Comfort And Convenience.</span>
                                 </h4>
                             </div>
-                            <p className='fw-semibold text-muted'>
+                            <p className='fw-semibold text-muted text-justify'>
                                Sense Projects is a <span className='text-dark'> leading commercial construction company</span> that offers top-quality construction solutions for different sectors. We specialize in <span className='text-dark'>building office buildings, retail stores and shopping centers, hotels, restaurants and cafes, entertainment venues, banks and financial institutions, and mixed-use developments.</span> Our team of skilled professionals works diligently to ensure every project is executed with precision and attention to detail. We provide 100% quality assurance, following the highest construction standards. From the beginning to the end, we strive to exceed our client's expectations by delivering projects on time and within the set budget. Sense Projects is committed to bringing your commercial construction ideas to life with exceptional quality and unwavering dedication. Trust us to create spaces that fulfill your vision and meet your requirements.
                             </p>
                         </div>

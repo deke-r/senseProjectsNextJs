@@ -52,7 +52,7 @@ const PreEngineeredServices = () => {
                 >
                   {service.title}
                 </h3>
-                <p style={{ color: '#52565E', fontSize: 14 }}>
+                <p style={{ color: '#52565E', fontSize: 14 }} className='text-justify'>
                   {service.description}
                 </p>
               </div>

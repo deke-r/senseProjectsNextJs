@@ -18,24 +18,24 @@ const WhoWeAre = () => {
             {/* Content */}
             <div className="container text-white py-5">
 
-<SectionHeader header='Who We Are' color='white'/>
+                <SectionHeader header='Who We Are' color='white' />
 
-                
+
                 <div className="row">
                     <div className="col-md-6 font-pop ">
                         <h4>Leading Builders in India</h4>
-                        <p className='text-light'>
+                        <p className='text-light text-justify'>
                             Sense Projects Pvt Ltd is a leading construction company in India. We operate in all major Metro cities and across India...
                         </p>
-                        <p className='text-light'>
+                        <p className='text-light text-justify'>
                             With expertise in construction, interior fit-out, PEB (Pre-Engineered Building), MEP...
                         </p>
                     </div>
                     <div className="col-md-6 font-pop">
-                        <p className='text-light'>
+                        <p className='text-light text-justify'>
                             With a strong reputation built over a decade of experience, Sense Projects Pvt Ltd is committed to delivering high-quality work...
                         </p>
-                        <p className='text-light'>
+                        <p className='text-light text-justify'>
                             Choose Sense Projects for all your construction necessities. We handle contracting, design, construction...
                         </p>
                         <p className="fw-bold text-light">📞 +91 9319412012</p>

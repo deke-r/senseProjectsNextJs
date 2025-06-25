@@ -65,7 +65,7 @@ export default function Career() {
                       {job.type}
                     </span>
                     <h3 className="card-title h4">{job.title}</h3>
-                    <p className="card-text">{job.desc}</p>
+                    <p className="card-text text-justify">{job.desc}</p>
                     <ul className="list-unstyled">
                       {job.points.map((point, i) => (
                         <li className="d-flex align-items-start" key={i}>

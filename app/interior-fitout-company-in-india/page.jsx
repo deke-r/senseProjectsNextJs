@@ -45,6 +45,7 @@ export default function IF() {
 
           </div>
           <div className="row align-items-center">
+
             {/* Left Column - Text */}
             <div className="col-md-6 mb-4 mb-md-0">
               <p className='fw-semibold text-justify'>
@@ -88,11 +89,12 @@ export default function IF() {
                 {
                   title: 'Project Initiation',
                   steps: [
-                    'Detailed site assessment (drawings, inputs, constraints)',
+                    'Detailed site assessment<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(drawings, inputs, constraints)',
                     'Engineering and technology review',
                     'Work breakdown structure',
                     'Prototype establishment',
                   ],
+
                 },
                 {
                   title: 'Feasibility Study',
@@ -128,7 +130,7 @@ export default function IF() {
                       {item.steps.map((step, sIdx) => (
                         <tr key={sIdx}>
                           <td>
-                            <i className="fas fa-chevron-circle-right"></i> {step}
+                            <i className="fas fa-chevron-circle-right"></i> <span dangerouslySetInnerHTML={{ __html: step }} />
                           </td>
                         </tr>
                       ))}

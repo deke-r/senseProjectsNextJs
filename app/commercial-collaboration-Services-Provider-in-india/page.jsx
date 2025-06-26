@@ -85,7 +85,7 @@ export default function CommercialCollaborationServicesProviderInIndia() {
                             <h4 className="fw-bold">Why Partner With Us?</h4>
 
 
-                            <ul className="service-point-list  p-0 fw-semibold list-unstyled mt-3">
+                            <ul className="service-point-list text-muted p-0 fw-semibold list-unstyled mt-3">
                                 <li className="py-1">
                                     <i className="fas fa-chevron-right text-blue me-2"></i>
                                     Absolute transparency with premium on-site services

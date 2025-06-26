@@ -11,7 +11,7 @@ import StatsSection from '../../components/StatsSection';
 const AboutWhoWeAre = () => {
     return (
         <>
-            <BannerTop page='About' />
+            <BannerTop page='About Us' />
 
 
             <section className="about-us-section py-12 bg-white">

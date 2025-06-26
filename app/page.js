@@ -160,12 +160,11 @@ export default function HomePage() {
       <BlobSection />
       <WhoWeAre />
       <CTASection
-        h3="Ready to Build with Award-Winning Experts?"
-        p="Get your construction done by professionals who solve with innovation — all at an affordable price."
+        
       />
       <WhyChooseUs />
       <OurServices />
-      <AwardWinning />
+      {/* <AwardWinning /> */}
       <OurClients />
       <Testimonials />
       <PanIndia />

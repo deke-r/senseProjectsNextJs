@@ -8,39 +8,40 @@ const interiorServices = [
     icon: 'fa-couch',
     title: 'Residential Interior',
     description:
-      'Since interior designing is integral part of any architecture, we are focused on creating residential interior space that is functional, modern, beautiful and comforting.',
+      'As interior design is an essential extension of architecture, we specialize in crafting residential spaces that are thoughtfully designed, effortlessly modern, and elegantly luxurious—where form meets function, and every detail evokes comfort and sophistication.',
   },
   {
     icon: 'fa-briefcase',
     title: 'Corporate Interior',
     description:
-      'Sense Projects is a premier corporate interior decorator in Gurgaon. We are backed by a strong team of ingenious architects, project managers, engineers, and contractors.',
+      'Sense Projects is a leading corporate interior design firm, driven by a dynamic team of visionary architects, experienced project managers, skilled engineers, and trusted contractors. We deliver bespoke, future-forward workspaces that reflect innovation, efficiency, and style.',
   },
   {
     icon: 'fa-store',
     title: 'Retail Interior',
     description:
-      'We are premier interior designers in Faridabad serving the community for over 15+ years. We are experts at retail store designing and know the real art.',
+      'We are premier interior designers with over 14 years of experience, specializing in retail store design. Our work blends functionality with aesthetic precision, reflecting a deep understanding of the art and strategy behind impactful commercial spaces.',
   },
   {
     icon: 'fa-bed',
     title: 'Hospitality Interior',
     description:
-      'We are a full-service interior solution provider using the best materials and latest trends. Our creative team delivers modern, functional, and aesthetic spaces.',
+      'We offer end-to-end hospitality interior solutions, combining premium materials with the latest design trends. Our creative team crafts spaces that are not only modern and visually striking but also functional, welcoming, and tailored to elevate the guest experience.',
   },
   {
     icon: 'fa-industry',
     title: 'Industrial Interior',
     description:
-      'We are a service-oriented company. Our process starts with understanding how you want to use your facility and then designing it exclusively to support your operations.',
+      'We are a service-driven interior design firm specializing in industrial spaces. Our process begins with a deep understanding of your operational needs, followed by tailored design solutions that enhance functionality, efficiency, and long-term performance.',
   },
   {
     icon: 'fa-school',
     title: 'Institutional Interior',
     description:
-      'We design exquisite institutional interiors with maximum functionality. Our experienced team ensures every space fulfills its intended purpose efficiently.',
+      'We design refined institutional interiors that prioritize purpose and performance. With a focus on functionality, our experienced team ensures each space is thoughtfully planned to support efficiency, engagement, and long-term use.',
   },
 ];
+
 
 const InternalFitoutServies = () => {
   return (

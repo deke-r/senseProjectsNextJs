@@ -3,13 +3,38 @@
 import React, { useState } from 'react';
 import '../styles/WhyChooseUs.css';
 import SectionHeader from '../components/SectionHeader';
+
 const accordionItems = [
-  "High Quality Standards",
-  "Integrity",
-  "One Stop Solution",
-  "Best Technical Design and Detailing",
-  "We Are Always Improving",
-  "Over A Decade of Quality Construction Service"
+  {
+    title: 'High Quality Standards',
+    content:
+      'We maintain uncompromising quality at every phase of construction—from planning to final execution. Our materials, craftsmanship, and processes meet the highest global standards.',
+  },
+  {
+    title: 'Integrity',
+    content:
+      'Transparency and ethics are the foundation of our business. Every project is built on trust, ensuring our clients stay informed, engaged, and confident throughout the journey.',
+  },
+  {
+    title: 'One Stop Solution',
+    content:
+      'From concept and design to execution and handover, we provide end-to-end construction solutions—streamlining the entire process under one trusted roof.',
+  },
+  {
+    title: 'Best Technical Design and Detailing',
+    content:
+      'Our in-house experts leverage advanced design tools and deep technical knowledge to deliver structurally sound, efficient, and aesthetically refined solutions.',
+  },
+  {
+    title: 'We Are Always Improving',
+    content:
+      'Innovation is at our core. We continuously upgrade our techniques, tools, and talent to deliver smarter, faster, and more sustainable construction solutions.',
+  },
+  {
+    title: 'Over A Decade of Quality Construction Service',
+    content:
+      'With over 14 years of proven success, we have built a reputation for excellence. Our legacy is reflected in the landmarks we’ve created and the trust of our clients.',
+  },
 ];
 
 const WhyChooseUs = () => {
@@ -21,12 +46,10 @@ const WhyChooseUs = () => {
 
   return (
     <div className="why-choose-us container my-5">
-
-<SectionHeader header='Why Choose Us?' color='#134377'/>
+      <SectionHeader header="Why Choose Us?" color="#134377" />
 
       <div className="row align-items-center">
         <div className="col-md-6 font-pop">
-
           <div className="accordion">
             {accordionItems.map((item, index) => (
               <div
@@ -37,7 +60,7 @@ const WhyChooseUs = () => {
                   className="accordion-header d-flex justify-content-between align-items-center"
                   onClick={() => toggleAccordion(index)}
                 >
-                  <span>{item}</span>
+                  <span>{item.title}</span>
                   <span
                     className={`arrow-icon ${activeIndex === index ? 'rotate' : ''}`}
                   >
@@ -53,7 +76,7 @@ const WhyChooseUs = () => {
                   }}
                 >
                   <div className="accordion-body text-justify">
-                    We ensure excellence in every aspect—from trained experts and technical accuracy to complete transparency.
+                    {item.content}
                   </div>
                 </div>
               </div>
@@ -62,16 +85,28 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="col-md-6">
-            <div className="container">
+          <div className="container">
+            <h4 className='fw-bold'>Your Vision, Our Expertise</h4>
+            <p className="font-pop description text-justify">
 
-          <p className="font-pop description text-justify">
-            Sense Projects Private Limited can make your dream construction come true. We operate in all Metro cities, and all across India. Choose Sense Projects for all your construction needs. Our skilled workers, industry connections, and stellar reputation make us the epitome of excellence in construction projects.
-          </p>
-          <p className="font-pop description text-justify">
-            Our organised approach, adherence to regulations, and talented team ensure your dream project is built to perfection. Experience the difference with Sense Projects Pvt Ltd. Choose Sense Projects for exceptional quality in residential, commercial, industrial, institutional, and hospitality construction.
-          </p>
+Sense Projects Pvt. Ltd. transforms your dream project into a built reality. From residential and commercial spaces to industrial, hospitality, and institutional developments—we operate in all major metro cities and across India.
+
+Our skilled workforce, strong industry partnerships, and proven track record position us as a leader in modern construction.
+
+With a structured approach, strict regulatory compliance, and a talented team of professionals, we ensure every space we deliver is a benchmark of excellence.
+
+Choose Sense Projects—where innovation meets execution, and every project is built to inspire.
+
+
+
+              </p>
+            <p className="font-pop description text-justify">
+              At Sense Projects Private Limited, we bring your architectural vision to life with unmatched finesse. Operating across metro cities and pan-India, we are your trusted partner for premium construction solutions. Our seasoned professionals, strategic collaborations, and proven track record define us as a benchmark in the construction industry.
+            </p>
+            <p className="font-pop description text-justify">
+              With a structured methodology, regulatory compliance, and a team of highly skilled experts, we deliver spaces that are not only engineered to perfection but built to elevate. From residential and commercial to industrial, institutional, and hospitality developments—choose Sense Projects for timeless craftsmanship and a legacy of excellence.
+            </p>
           </div>
-
         </div>
       </div>
     </div>

@@ -9,17 +9,17 @@ const LeadingTrustSection = () => {
 
   const stats = [
     {
-      // icon: '/images/noun_Checkbox.png',
+      icon: '/images/noun_Checkbox.webp',
       value: 2368,
       caption: 'Project Completed',
     },
     {
-      // icon: '/images/home2017_005.png',
+      icon: '/images/home2017_005.webp',
       value: 130,
       caption: 'Workers Employed',
     },
     {
-      // icon: '/images/noun_Trophy_4000019.png',
+      icon: '/images/noun_Trophy_4000019.webp',
       value: 27,
       caption: 'Awards Won',
     },
@@ -121,13 +121,13 @@ const LeadingTrustSection = () => {
             <div className="row">
               {stats.map((stat, index) => (
                 <div className="col-md-4 count-box text-center" key={index}>
-                  {/* <Image
+                  <Image
                     src={stat.icon}
                     alt={stat.caption}
                     width={64}
                     height={64}
                     className="mx-auto d-block mb-2"
-                  /> */}
+                  />
                   <Counter target={stat.value} trigger={trigger} />
                   <div className="caption">
                     <h4 className="stat-caption text-light">{stat.caption}</h4>

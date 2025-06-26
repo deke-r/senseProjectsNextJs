@@ -63,7 +63,7 @@ export default function preEngineeredBuildingsCompanyIndia() {
                     <div className="row">
                         <div class="col-md-12 mt-3">
                             <h4 className="fw-bold">PEB services in Pan India</h4>
-                            <ul class="service-point-list p-0 fw-semibold" style={{listStyle:'none'}}>
+                            <ul class="service-point-list p-0 fw-semibold text-muted" style={{listStyle:'none'}}>
                                 <li className='py-1'><i class="fas fa-chevron-right text-blue" aria-hidden="true"></i> We strictly follow IS standards.
                                 </li>
                                 <li className='py-1'><i class="fas fa-chevron-right text-blue" aria-hidden="true"></i> All material meets ASTM (US) quality standards.

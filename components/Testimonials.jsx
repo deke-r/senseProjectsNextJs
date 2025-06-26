@@ -8,26 +8,27 @@ import SectionHeader from './SectionHeader';
 
 const testimonials = [
   {
-    name: 'John Doe',
-    feedback: 'Their team exceeded my expectations. I highly recommend them!',
+    name: 'Rajesh Mehta',
+    feedback: 'Sense Projects demonstrated exceptional professionalism and attention to detail. The project was delivered on time and exceeded our expectations.',
   },
   {
-    name: 'Sarah Smith',
-    feedback: 'Excellent service, very professional and delivered on time.',
+    name: 'Ananya Reddy',
+    feedback: 'Impressive planning and flawless execution. Their team maintained great communication throughout the project timeline.',
   },
   {
-    name: 'Michael Lee',
-    feedback: 'Truly a reliable company with skilled engineers and timely execution.',
+    name: 'Vikram Sharma',
+    feedback: 'Their engineering expertise and site management skills ensured quality results. Highly dependable and efficient team.',
   },
   {
-    name: 'Priya Kumar',
-    feedback: 'From planning to execution, everything was seamless and top quality.',
+    name: 'Neha Joshi',
+    feedback: 'From initial consultation to final delivery, the process was smooth and well-coordinated. Truly a client-focused company.',
   },
   {
-    name: 'Amit Verma',
-    feedback: 'Great service and communication throughout the project!',
+    name: 'Arjun Patel',
+    feedback: 'We appreciated their transparency, quality control, and timely delivery. One of the best project teams we’ve worked with.',
   },
 ];
+
 
 const Testimonials = () => {
   return (

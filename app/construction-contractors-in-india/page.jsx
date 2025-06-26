@@ -85,7 +85,7 @@ export default function CivilConstructionsPage() {
                 {
                   title: 'Project Initiation',
                   steps: [
-                    'Detailed site assessment [drawing, suggestions & challenges]',
+                    'Detailed site assessment <br/>&nbsp;&nbsp;&nbsp;&nbsp; [drawing, suggestions & challenges]',
                     'Engineering & Technological assessments',
                     'Work breakdown structure',
                     'Establishing the prototype',
@@ -108,7 +108,7 @@ export default function CivilConstructionsPage() {
                     'Critical path identification & reduction plan',
                     'Monitoring and controlling',
                     'Implementation of Engineering and Technicalities',
-                    'Communication [daily reports, weekly audits and reviews etc]',
+                    'Communication<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[daily reports, weekly audits and reviews etc]',
                   ],
                 },
                 {
@@ -127,7 +127,7 @@ export default function CivilConstructionsPage() {
                       {item.steps.map((step, sIdx) => (
                         <tr key={sIdx}>
                           <td>
-                            <i className="fas fa-chevron-circle-right"></i> {step}
+                            <i className="fas fa-chevron-circle-right"></i> <span dangerouslySetInnerHTML={{ __html: step }} />
                           </td>
                         </tr>
                       ))}

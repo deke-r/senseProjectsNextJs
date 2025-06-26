@@ -18,27 +18,28 @@ const WhoWeAre = () => {
             {/* Content */}
             <div className="container text-white py-5">
 
-                <SectionHeader header='Who We Are' color='white' />
 
 
                 <div className="row">
                     <div className="col-md-6 font-pop ">
-                        <h4>Leading Builders in India</h4>
-                        <p className='text-light text-justify'>
-                            Sense Projects Pvt Ltd is a leading construction company in India. We operate in all major Metro cities and across India...
+                <SectionHeader header='What We Are' color='white' />
+
+                       
+                        <p className='text-light text-justify '>
+                          Sense Projects Pvt. Ltd. is a premier construction company headquartered in Delhi NCR with a strong presence across India. Since our inception in 2007, we have successfully delivered landmark infrastructure and real estate projects that stand as a testament to our capabilities and commitment. With deep-rooted experience in general construction, plumbing and electrical works, firefighting systems, turnkey solutions, PEB structures, and project maintenance, we provide end-to-end solutions tailored to each project's unique demands. Our in-house team of skilled engineers and architects leverages advanced construction techniques to execute projects across diverse environments and complexities. Backed by a solid foundation in infrastructure, commercial, and residential development, we bring strategic insight, technical excellence, and a results-driven approach to every project we undertake, ensuring quality, innovation, and value at every step.  
+
                         </p>
-                        <p className='text-light text-justify'>
-                            With expertise in construction, interior fit-out, PEB (Pre-Engineered Building), MEP...
-                        </p>
+                       
                     </div>
                     <div className="col-md-6 font-pop">
-                        <p className='text-light text-justify'>
-                            With a strong reputation built over a decade of experience, Sense Projects Pvt Ltd is committed to delivering high-quality work...
+                <SectionHeader header='What we do' color='white' />
+
+                        <p className='text-light text-justify '>
+                            At Sense Projects Pvt. Ltd., we don’t just build structures, we create spaces that inspire growth, efficiency, and innovation. With over 15 years of dynamic experience, we’ve carved a niche in delivering comprehensive construction, interior, and infrastructure solutions across India’s retail, industrial, commercial, and institutional Sectors. Our experience spans everything from civil construction and road development to sophisticated MEP systems, pre-engineered buildings (PEBs), and turnkey interior fit-outs. We also manage the finer details from project maintenance to complete property management, ensuring our clients experience seamless service from concept to completion. What sets us apart is our ability to blend technical precision with creative problem solving. We listen closely, plan meticulously, and execute flawlessly, always aligning with our clients’ visions and goals. At Sense Projects, every project is more than just a contract; it's a partnership built on trust, innovation, and a shared vision for excellence.
+
                         </p>
-                        <p className='text-light text-justify'>
-                            Choose Sense Projects for all your construction necessities. We handle contracting, design, construction...
-                        </p>
-                        <p className="fw-bold text-light">📞 +91 9319412012</p>
+                        
+                     
                     </div>
                 </div>
             </div>

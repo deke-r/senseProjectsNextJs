@@ -30,16 +30,22 @@ const BlobSection = () => {
             </div>
           </div>
 
-          <div className="col-md-6 blob-text">
-            <h5 className="text-blue fw-bold">We are trusted CONSTRUCTION COMPANY</h5>
-            <h2 className="fw-bold mb-3">Building a Better Future: Our Trusted Legacy in Construction</h2>
-            <p className='text-justify'>
-              Sense Projects Pvt Ltd is a reputed construction company in India. Our construction involves designing and building structures — covering residential, commercial, industrial, and hospitality projects.
+          <div className="col-md-6 ">
+        
+            <h2 className="fw-bold mb-3 text-blue">Building a Better Tomorrow with Confidence and Craftsmanship</h2>
+            <p className='text-justify fw-semibold text-muted'>
+              Sense Projects Pvt. Ltd. is one of India’s most trusted names in construction, renowned for delivering excellence across residential, commercial, industrial, institutional, and hospitality sectors. With a legacy rooted in precision, performance, and professionalism, we transform bold ideas into iconic structures.
             </p>
-            <p className='text-justify'>
-              From conceptualising architectural designs to meticulously crafting structures, our dedicated team of architects and engineers ensures excellence at every stage.
+
+            <p className='text-justify  fw-semibold text-muted'>
+              From concept to completion, our multidisciplinary team of visionary architects, skilled engineers, and experienced project managers ensures each project is executed with meticulous attention to detail, uncompromising quality, and on-time delivery.
             </p>
-            <p>
+            <p className='text-justify fw-semibold text-muted'>
+              At Sense Projects, innovation meets integrity. We integrate cutting-edge technology, sustainable building practices, and design-forward thinking to create spaces that are not only structurally sound but also aesthetically timeless.
+
+              Whether it's a luxury villa, a smart warehouse, or a state-of-the-art institutional campus, we approach every project with a deep understanding of its purpose—and a commitment to exceed expectations.
+            </p>
+            <p className='fw-semibold text-muted'>
               Choose Sense Projects for reliability, innovation, and top-tier construction services.
             </p>
           </div>

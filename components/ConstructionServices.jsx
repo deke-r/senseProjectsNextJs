@@ -8,40 +8,47 @@ const constructionServices = [
   {
     icon: 'fa-house-chimney',
     title: 'Residential Construction',
-    description: 'Sense Projects specializes in building high-quality Independent Houses, Bungalows, Flats, Apartments, Villas, and well-planned Plot layouts.',
+    description:
+      'Sense Projects excels in crafting premium independent houses, bungalows, flats, apartments, villas, and meticulously planned plot layouts—delivering quality, elegance, and thoughtful design in every project.',
     link: '/residential-construction-company-in-india',
   },
   {
     icon: 'fa-industry',
     title: 'Industrial Construction',
-    description: 'Sense Projects excels in Industrial Construction, delivering top-notch solutions for factories, warehouses, manufacturing facilities, and other industrial structures.',
+    description:
+      'Sense Projects specializes in industrial construction, providing superior solutions for factories, warehouses, manufacturing facilities, and other industrial infrastructures—ensuring durability, efficiency, and excellence at every stage.',
     link: '/industrial-construction-company-in-india',
   },
   {
     icon: 'fa-building-columns',
     title: 'Commercial Construction',
-    description: 'Sense Projects is a leader in Commercial Construction, providing exceptional services for offices, retail spaces, hotels, restaurants, and other commercial buildings.',
+    description:
+      'Sense Projects stands as a leader in commercial construction, delivering exceptional services across offices, retail spaces, hotels, restaurants, and diverse commercial developments—with a commitment to quality, innovation, and client satisfaction.',
     link: '/commercial-construction-company-in-india',
   },
   {
     icon: 'fa-hotel',
     title: 'Hospitality Construction',
-    description: 'We create beautiful and detailed designs for luxurious hospitality spaces, considering today\'s needs. We take care of everything from planning to construction.',
+    description:
+      'We design and build exquisite hospitality spaces that blend luxury with functionality, tailored to meet contemporary standards. From initial planning through to final construction, we manage every detail to deliver exceptional experiences.',
     link: '/hospitality-construction-company-in-india',
   },
   {
     icon: 'fa-school',
     title: 'Institutional Construction',
-    description: 'Sense Projects specializes in Institutional Construction, creating purpose-built structures for schools, colleges, universities, and other educational institutions with a focus on functionality and quality.',
+    description:
+      'Sense Projects specializes in institutional construction, delivering purpose-built facilities for schools, colleges, universities, and educational institutions—designed with a strong focus on functionality, durability, and quality.',
     link: '/institutional-construction-company-in-india',
   },
   {
     icon: 'fa-warehouse',
     title: 'Warehouse Construction',
-    description: 'Sense Projects excels in Warehouse Construction, designing and constructing efficient storage facilities tailored to meet the specific needs of businesses.',
+    description:
+      'Sense Projects specializes in warehouse construction, delivering efficient, customized storage solutions designed to meet the unique operational needs of businesses.',
     link: '/warehouse-construction-company-in-india',
-  }
+  },
 ];
+
 
 const ConstructionServices = () => {
   return (

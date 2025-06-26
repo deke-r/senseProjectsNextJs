@@ -84,12 +84,9 @@ export default function ConcreteRoadConstructionCompanyInIndia() {
   <div className="container my-2">
     <div className="row">
       <h4 className="fw-bold">Our Services</h4>
-      <p className="fw-semibold mt-2 text-muted">
-        <i className="fas fa-chevron-right text-blue me-2" aria-hidden="true"></i>
-        Concrete Road Contractors in India
-      </p>
+  
       <p className="fw-semibold text-muted mt-2 text-justify">
-        SPPL offers comprehensive, world-class infrastructure development services across India. From initial concept and design to construction, commissioning, tolling, operations, and maintenance — all services are performed by our in-house experts, ensuring consistency, quality, and accountability at every stage.
+        Concrete Road Contractors in India. SPPL offers comprehensive, world-class infrastructure development services across India. From initial concept and design to construction, commissioning, tolling, operations, and maintenance — all services are performed by our in-house experts, ensuring consistency, quality, and accountability at every stage.
       </p>
       <p className="fw-semibold text-muted mt-2 text-justify">
         Our commitment to timely delivery and exceptional project execution has earned us a remarkable reputation nationwide.

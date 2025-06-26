@@ -7,26 +7,29 @@ const constructionServices = [
   {
     icon: 'fa-warehouse',
     title: 'Pre-Engineered Warehouse',
-    description: 'If you need a better storage solution? then choose SPPL for well-designed and customized pre-engineered warehouses.',
-
+    description:
+      'Looking for a smarter storage solution? Choose SPPL for customized, well-engineered pre-fabricated warehouses designed to maximize space, efficiency, and durability.',
   },
   {
     icon: 'fa-archway',
     title: 'Pre-Engineered Terminal',
-    description: 'Want to make transportation easier! SPPL built pre-engineered terminals for smooth logistics and efficient operations.',
+    description:
+      'Looking to streamline transportation and logistics? SPPL delivers pre-engineered terminals designed for seamless movement, operational efficiency, and long-term performance.',
   },
   {
     icon: 'fa-industry',
     title: 'Pre-Engineered Factory',
-    description: 'Want to improve manufacturing? Trust SPPL for specialized pre-engineered factories to boost productivity and efficiency',
+    description:
+      'Ready to enhance your manufacturing capabilities? Trust SPPL for custom-built pre-engineered factories designed to optimize productivity, efficiency, and operational flow.',
   },
   {
     icon: 'fa-store',
     title: 'Pre-Engineered Cold Storage',
-    description: 'Need to keep things fresh! SPPL provides well-designed pre-engineered cold storage units ensure optimal temperature control for preserving goods.',
+    description:
+      'Need reliable cold storage solutions? SPPL delivers expertly designed pre-engineered cold storage units that ensure precise temperature control for optimal preservation of your goods.',
   },
-
 ];
+
 
 const PreEngineeredServices = () => {
   return (

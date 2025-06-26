@@ -121,7 +121,7 @@ export default function CivilConstructionsPage() {
                 },
               ].map((item, idx) => (
                 <li key={idx}>
-                  <div className="process-content">
+                  <div className="process-content text-start">
                     <h3>{item.title}</h3>
                     <table>
                       {item.steps.map((step, sIdx) => (

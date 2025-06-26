@@ -16,16 +16,22 @@ const CC = () => {
             <SectionHeader
                 header={
                     <>
-                        Are You Looking for Best Commercial <br /> Construction Companies in India?
+                 Looking for the Best Commercial Construction Company in India?
                     </>
                 }
                 color="#134377"
             />
 
-            <h5 className='text-center fw-bold'>“We design and build efficiently”</h5>
+            <h5 className='text-center fw-bold'>“We Design and Build with Precision and Efficiency”</h5>
             <div className="container mb-5 mt-3">
 
-                <p className='fw-semibold text-secondary text-justify'>Sense Projects Pvt. Ltd. is a trusted commercial construction company in India. Since 2007, we have excelled in the field of construction. Our highly skilled technical experts make sure perfect and error-free creations without delays. We are reliable, unique, and committed to delivering high-quality projects. Our expertise lies in commercial construction, extensions, conversions, and refurbishments. Trust us to deliver excellence in every project we undertake.</p>
+                <p className='fw-semibold text-secondary text-justify'>Since 2007, Sense Projects Pvt. Ltd. has earned its reputation as a trusted leader in commercial construction across India. Our team of highly skilled technical experts ensures flawless execution, delivering projects on time and without compromise.
+
+We specialize in a wide range of commercial construction services including new builds, extensions, conversions, and refurbishments. Reliability, innovation, and quality are at the core of everything we do.
+
+
+
+</p>
             </div>
 
 
@@ -38,19 +44,50 @@ const CC = () => {
                         <div className="col-md-6">
                             <div className="heading-title-2">
                                 <SectionHeader
-                                    header='Who We Do?'
+                                    header='Where Class Meets Comfort and Convenience'
                                     color="#134377"
                                 />
 
                             </div>
                             <div className="span-head mb-3">
-                                <h4>
-                                    We Talk About <span className='text-warning'>Class, Comfort And Convenience.</span>
-                                </h4>
+                               
                             </div>
                             <p className='fw-semibold text-muted text-justify'>
-                               Sense Projects is a <span className='text-dark'> leading commercial construction company</span> that offers top-quality construction solutions for different sectors. We specialize in <span className='text-dark'>building office buildings, retail stores and shopping centers, hotels, restaurants and cafes, entertainment venues, banks and financial institutions, and mixed-use developments.</span> Our team of skilled professionals works diligently to ensure every project is executed with precision and attention to detail. We provide 100% quality assurance, following the highest construction standards. From the beginning to the end, we strive to exceed our client's expectations by delivering projects on time and within the set budget. Sense Projects is committed to bringing your commercial construction ideas to life with exceptional quality and unwavering dedication. Trust us to create spaces that fulfill your vision and meet your requirements.
+                              Sense Projects Pvt. Ltd. is a premier commercial construction company delivering superior construction solutions across diverse sectors. Our expertise spans the development of:
                             </p>
+                            <ul className="service-point-list text-muted p-0 fw-semibold list-unstyled mt-3">
+  <li className="py-1">
+    <i className="fas fa-chevron-right text-blue me-2"></i>
+    Office Buildings
+  </li>
+  <li className="py-1">
+    <i className="fas fa-chevron-right text-blue me-2"></i>
+    Retail Stores & Shopping Centers
+  </li>
+  <li className="py-1">
+    <i className="fas fa-chevron-right text-blue me-2"></i>
+    Hotels, Restaurants & Cafes
+  </li>
+  <li className="py-1">
+    <i className="fas fa-chevron-right text-blue me-2"></i>
+    Entertainment Venues
+  </li>
+  <li className="py-1">
+    <i className="fas fa-chevron-right text-blue me-2"></i>
+    Banks & Financial Institutions
+  </li>
+  <li className="py-1">
+    <i className="fas fa-chevron-right text-blue me-2"></i>
+    Mixed-Use Developments
+  </li>
+</ul>
+    <p className='fw-semibold text-muted text-justify'>Our team of dedicated professionals ensures each project is executed with meticulous precision and an unwavering focus on quality. We guarantee 100% quality assurance by adhering to the highest industry standards throughout every phase of construction.
+
+From concept to completion, we are committed to exceeding client expectations by delivering projects on schedule and within budget. At Sense Projects, we bring your commercial construction vision to life with unmatched craftsmanship and dedication.</p>
+
+
+        <p className='fw-semibold text-muted text-justify'>Trust Sense Projects to build commercial spaces that embody your vision, optimize functionality, and stand the test of time.</p>
+
                         </div>
 
                         {/* Right Column - Image */}

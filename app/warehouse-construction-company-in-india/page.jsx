@@ -16,17 +16,22 @@ const WC = () => {
             <SectionHeader
                 header={
                     <>
-                        Looking Forward for Warehouse<span className='text-warning'><br /> Construction Company in India?</span>
+                      Looking for a Reliable Warehouse Construction Company In India?
 
                     </>
                 }
                 color="#134377"
             />
 
-            <h5 className='text-center fw-bold'></h5>
+            <h5 className='text-center fw-bold'>
+
+                 “Efficient, Customized Storage Solutions Tailored to Your Business”
+            </h5>
             <div className="container my-5">
 
-                <p className='fw-semibold text-secondary text-justify'>A warehouse is a place where businesses keep their things. It's like a big storage space for stuff like products, materials, and supplies. Warehouses are important because they help businesses stay organized and manage their inventory. Warehouses are really helpful because they make it easier for businesses to keep track of their things and make sure everything is in the right place. Sense Projects Pvt. Ltd. builds effecient and cost-effective warehouses. We are the trusted warehouse construction company in India and offer customized and dependable storage solutions for your business requirements.</p>
+                <p className='fw-semibold text-secondary text-justify'>A warehouse is a critical facility where businesses securely store their products, materials, and supplies—ensuring smooth inventory management and operational efficiency.
+
+At Sense Projects Pvt. Ltd., we specialize in building efficient, cost-effective warehouses designed to meet your unique business needs. As a trusted warehouse construction company in India, we deliver customized, dependable storage solutions that help you stay organized and streamline your operations.</p>
             </div>
 
 
@@ -39,18 +44,22 @@ const WC = () => {
                         <div className="col-md-6">
                             <div className="heading-title-2">
                                 <SectionHeader
-                                    header='Who We Do?'
+                                    header='We Talk About Class, Comfort, and Convenience'
                                     color="#134377"
                                 />
 
                             </div>
                             <div className="span-head mb-3">
-                                <h4>
-                                    We Talk About <span className='text-warning'>Class, Comfort And Convenience.</span>
-                                </h4>
+                              
                             </div>
                             <p className='fw-semibold text-muted text-justify'>
-                                Sense Projects Pvt. Ltd. manufactures quality warehouses according to our client's requirements. We listen to our client's requirements first and understand their need. which types of warehouses they want. Before we begin to work we analyze the size, layout and storage capacity of the warehouse that how will it function. We help our client to choose a location for warehouse construction. We have experienced architects and engineers who create a whole design and follow the legal rules and make sure that space and material are used in the right way. We analyse every detail of the warehouse and confirm that work finishes on time and budget. Our project manager checks all the necessary things including safety and quality. And when the warehouse construction process is finished. Then We do a final inspection so that it is confirmed that everything is working in the proper way. Sense Projects Pvt. Ltd. makes their clients happy and give 100% satisfaction. We make the building of the warehouse is so easy and give our clients a warehouse according to their needs.
+                               At Sense Projects Pvt. Ltd., we specialize in designing and constructing high-quality warehouses tailored to our clients' specific needs. We begin by carefully listening to your requirements to understand the type of warehouse you need.
+
+Before starting construction, we thoroughly analyze factors such as size, layout, and storage capacity to ensure optimal functionality. We assist clients in selecting the ideal location and employ experienced architects and engineers to create efficient, compliant designs that maximize space and resources.
+
+Our dedicated project managers oversee every detail—ensuring strict adherence to safety standards, quality benchmarks, and timely completion within budget. Upon finishing construction, we conduct a comprehensive final inspection to guarantee that everything operates smoothly.
+
+With Sense Projects, warehouse construction is seamless, efficient, and customized to meet your unique needs—delivering 100% client satisfaction every time
                             </p>
                         </div>
 

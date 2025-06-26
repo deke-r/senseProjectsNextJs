@@ -32,7 +32,7 @@ const WhoWeAre = () => {
                        
                     </div>
                     <div className="col-md-6 font-pop">
-                <SectionHeader header='What we do' color='white' />
+                <SectionHeader header='What We Do' color='white' />
 
                         <p className='text-light text-justify '>
                             At Sense Projects Pvt. Ltd., we don’t just build structures, we create spaces that inspire growth, efficiency, and innovation. With over 15 years of dynamic experience, we’ve carved a niche in delivering comprehensive construction, interior, and infrastructure solutions across India’s retail, industrial, commercial, and institutional Sectors. Our experience spans everything from civil construction and road development to sophisticated MEP systems, pre-engineered buildings (PEBs), and turnkey interior fit-outs. We also manage the finer details from project maintenance to complete property management, ensuring our clients experience seamless service from concept to completion. What sets us apart is our ability to blend technical precision with creative problem solving. We listen closely, plan meticulously, and execute flawlessly, always aligning with our clients’ visions and goals. At Sense Projects, every project is more than just a contract; it's a partnership built on trust, innovation, and a shared vision for excellence.

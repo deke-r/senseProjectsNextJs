@@ -10,23 +10,28 @@ import WhyChooseUs from '@/components/WhyChooseUs'
 const HC = () => {
     return (
         <>
-            <BannerTop page='Hospitality Construction Company in India
+            <BannerTop page='Hospitality Construction Company In India
 ' page2='Services' />
 
             <SectionHeader
                 header={
                     <>
-                        Are You Looking for Best  Construction Company<br />  for building a functional <span className='text-warning'>
-                            hospital?</span>
+                        Looking for the Best Hospitality Construction Company?
                     </>
                 }
                 color="#134377"
             />
 
-            <h5 className='text-center fw-bold'></h5>
+            <h5 className='text-center fw-bold'>
+
+                “Building Healthcare Spaces with Care and Precision”
+            </h5>
             <div className="container my-5">
 
-                <p className='fw-semibold text-secondary text-justify'>Sense Projects Private Limited is a top-notch hospital construction company with a proven track record since its inception in 2007. We specialize in building the most advanced hospitals that place a priority on patient well-being. Sense Projects Private Limited has built quite a name in the construction industry as we are equipped with highly skilled architects, contractors, and engineers which makes us the most sought choice when it comes to building hospitals.</p>
+                <p className='fw-semibold text-secondary text-justify'>Since 2007, Sense Projects Pvt. Ltd. has been a premier name in hospital construction, delivering state-of-the-art healthcare facilities designed with patient well-being as the top priority.
+                    Equipped with a team of highly skilled architects, engineers, and contractors, we consistently set the benchmark for quality, innovation, and reliability in hospital construction. Our proven track record and commitment to excellence make us the trusted choice for healthcare infrastructure projects across India.
+
+                    Choose Sense Projects Pvt. Ltd. for advanced, efficient, and compassionate hospital construction that supports better healthcare outcomes.</p>
             </div>
 
 
@@ -39,18 +44,20 @@ const HC = () => {
                         <div className="col-md-6">
                             <div className="heading-title-2">
                                 <SectionHeader
-                                    header='Who We Do?'
+                                    header='We Talk About Class, Comfort, and Convenience'
                                     color="#134377"
                                 />
 
                             </div>
                             <div className="span-head mb-3">
-                                <h4>
-                                    We Talk About <span className='text-warning'>Class, Comfort And Convenience.</span>
-                                </h4>
+
                             </div>
                             <p className='fw-semibold text-muted text-justify'>
-                                As a renowned <span className='text-warning'> hospital building company</span>, we are committed to providing excellent facilities that cater to the unique needs of a healthcare facility. Planning, design, construction management, and execution are all included in our all-inclusive solutions for building the hospital. At Sense Projects Private Limited we take care of rigid regulatory standards and integrate the latest advancements in medical infrastructure and technology such as installing advanced HVAC systems. We turn healthcare goals into reality with a commitment to quality, innovation, and timely delivery, making sure that hospitals have the necessary resources to give their patients the best treatment possible as there is an old yet true saying “ Health is Wealth “.
+                                As a trusted leader in hospital construction, Sense Projects Pvt. Ltd. is dedicated to delivering state-of-the-art healthcare facilities tailored to meet the unique demands of medical environments. Our comprehensive services cover every stage—from meticulous planning and innovative design to construction management and flawless execution.
+
+                                We rigorously adhere to strict regulatory standards and seamlessly integrate the latest advancements in medical infrastructure and technology, including cutting-edge HVAC systems, to ensure optimal safety and efficiency.
+
+                                At Sense Projects, we transform healthcare visions into reality through a steadfast commitment to quality, innovation, and timely delivery. Our mission is to equip hospitals with the resources they need to provide exceptional care—because, as the timeless saying goes, “Health is Wealth.”
                             </p>
                         </div>
 

@@ -10,22 +10,28 @@ import WhyChooseUs from '@/components/WhyChooseUs'
 const ResidentialConstruction = () => {
     return (
         <>
-            <BannerTop page='Residential Construction Company in India
+            <BannerTop page='Residential Construction Company In India
 ' page2='Services' />
 
             <SectionHeader
                 header={
                     <>
-                        Are You Looking for Top Residential <br /> Construction Companies in India?
+                        Looking for the Leading Residential Construction Company In India?
                     </>
                 }
                 color="#134377"
             />
 
-            <h5 className='text-center mt-5 fw-bold'>“ YOUR WISH IS OUR COMMAND”</h5>
+            <h5 className='text-center mt-5 fw-bold'>“Your Vision, Our Commitment”</h5>
             <div className="container mb-5">
 
-                <p className='fw-semibold text-secondary text-justify'>Sense Projects Pvt. Ltd., a luxury residential construction company since 2007. We specialize in designing and building exceptional homes. With a team of skilled architects and designers, we turn your dream home into a reality. Our focus is on delivering premium construction services at an affordable price, without compromising on quality. With over a decade of experience in the industry, we bring expertise and learning from each project to ensure excellence in every endeavor. Trust us to provide world-class amenities and timely project completion, as we continue to grow and learn with every project we undertake.</p>
+                <p className='fw-semibold text-secondary text-justify'>Since 2007, Sense Projects Pvt. Ltd. has been synonymous with luxury residential construction. We specialize in crafting exceptional homes that reflect your unique style and aspirations.
+
+Our team of expert architects and designers works closely with you to transform your dream home into a stunning reality—blending premium quality, innovative design, and functional elegance. With over a decade of experience, we consistently deliver world-class construction services at competitive prices, without ever compromising on quality. We pride ourselves on timely project completion and seamless execution, ensuring every detail exceeds your expectations.
+
+Choose Sense Projects—where excellence meets affordability, and your dream home becomes our masterpiece.
+
+</p>
             </div>
 
 
@@ -38,25 +44,22 @@ const ResidentialConstruction = () => {
                         <div className="col-md-6">
                             <div className="heading-title-2">
                                 <SectionHeader
-                                    header='Who We Do?'
+                                    header='Constructing Dreams, Brick by Brick'
                                     color="#134377"
                                 />
 
                             </div>
                             <div className="span-head mb-3">
-                                <h4>
-                                    Constructing Dreams, <span className='text-warning'>Brick by Brick</span>
-                                </h4>
+
                             </div>
                             <p className='fw-semibold text-muted text-justify'>
-                                Sense Projects provides residential building works. We not only deliver high-quality work, but we also guide you
-                                throughout the entire construction process. Our primary service revolves around constructing new homes. We
-                                construct homes from scratch, turning your dreams into a tangible reality. Furthermore, we specialize in
-                                renovations and remodeling. Our team of experts is passionate about both interior and exterior design. With
-                                meticulous architectural planning, we can create stunning and functional spaces inside and outside your home.
-                                We also have professionals in structural engineering who ensure the strength and safety of your home's structure.
-                                We handle plumbing and electrical work to ensure the efficient functioning of your home's systems. Additionally,
-                                we offer various flooring and tiling options to make your space beautiful.
+                                At Sense Projects Pvt. Ltd., we specialize in residential construction services that bring your vision to life. Whether you’re building a home from the ground up or upgrading an existing one, we deliver quality craftsmanship, guided expertise, and complete transparency throughout the entire construction process.
+
+                                Our core strength lies in new home construction, where we transform your dreams into structurally sound, beautifully designed living spaces. We also excel in renovation and remodeling projects, offering a perfect blend of style and functionality—both inside and out.
+
+                                From meticulous architectural planning to expert interior and exterior design, our team ensures that every element aligns with your lifestyle. Our structural engineers prioritize strength and safety, while our plumbing and electrical specialists ensure all systems run efficiently. Additionally, we offer a wide range of flooring and tiling solutions to add the finishing touch to your dream home.
+
+
                             </p>
                         </div>
 
@@ -71,27 +74,10 @@ const ResidentialConstruction = () => {
                     </div>
                 </div>
 
-                {/* Second Section */}
-                <div className="container pt-30">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="span-head mb-3">
-                                <h4>
-                                    Leading <span className='text-warning'>Residential Construction Contractors</span> in India
-                                </h4>
-                            </div>
-                            <p className='fw-semibold text-muted text-justify'>
-                                Sense Projects Pvt. Ltd. is an award-winning home building contractor in India. Since 2007, we have become one
-                                of the top construction companies. Our premium services include high-quality materials, skilled workers, and a
-                                qualified technical team, gained through valuable experience.
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </section>
 
-            <WhoWeAre/>
-            <WhyChooseUs/>
+            <WhoWeAre />
+            <WhyChooseUs />
 
             <CTASection h3='Looking for high quality constructor for your project Residential, Industrial Hotels & Resorts? Call N' />
             <PanIndia />

@@ -1,4 +1,39 @@
-'use client';
+
+
+
+
+
+export const metadata = {
+  title: 'Join Our Team – Career Opportunities at Sense Projects Pvt. Ltd.',
+  description:
+    'Explore exciting career opportunities with Sense Projects Pvt. Ltd. We’re hiring skilled professionals and passionate talent across engineering, project management, and support roles.',
+  keywords: [
+    'Construction Jobs India',
+    'Career in Engineering Projects',
+    'Civil Engineering Jobs Delhi NCR',
+    'Project Manager Jobs Construction',
+    'Hiring Construction Professionals',
+    'Construction Company Vacancies',
+    'Work with Top Builders India',
+    'Real Estate Career India',
+    'MEP Engineer Jobs India',
+    'Join Sense Projects Careers'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/career',
+  },
+  openGraph: {
+    title: 'Join Our Team – Career Opportunities at Sense Projects Pvt. Ltd.',
+    description:
+      'Discover open positions and growth opportunities at Sense Projects Pvt. Ltd. Be part of a dynamic team that’s building India’s future.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/career',
+  },
+};
+
+
 
 import BannerTop from "@/components/BannerTop";
 import CareerForm from "@/components/Career-form";

@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Leading Industrial Infrastructure Builders in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. specializes in turnkey industrial construction across India. We deliver high-performance factories, plants, and industrial facilities with strict quality and safety standards.',
+  keywords: [
+    'Factory Construction Services India',
+    'Turnkey Industrial Contractors',
+    'Manufacturing Plant Developers',
+    'Industrial Infrastructure Builders',
+    'Heavy Engineering Construction India',
+    'Industrial Shed Erection Experts',
+    'Warehouse & Logistics Park Developers',
+    'Precast Industrial Building Contractors',
+    'Specialized Industry Construction Firms',
+    'Process Plant Construction India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/industrial-construction-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Industrial Construction Experts India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Leading Industrial Infrastructure Builders in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Leading Industrial Infrastructure Builders in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects Pvt. Ltd. specializes in turnkey industrial construction across India. We deliver high-performance factories, plants, and industrial facilities with strict quality and safety standards.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/industrial-construction-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop'
 import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'

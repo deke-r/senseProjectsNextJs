@@ -1,3 +1,46 @@
+export const metadata = {
+  title: 'Corporate & Retail Construction Experts in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects delivers large-scale commercial construction solutions including malls, office towers, retail spaces, and mixed-use developments. We ensure timely delivery with premium finishes across India.',
+  keywords: [
+    'Corporate Office Builders India',
+    'Retail Construction Contractors',
+    'Business Complex Developers',
+    'Commercial Space Construction India',
+    'Mixed-Use Project Specialists',
+    'Shopping Mall Construction Experts',
+    'Business Park Development Company',
+    'Office Interior Shell Contractors',
+    'Premium Commercial Infrastructure',
+    'Real Estate Developer for Corporates'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/commercial-construction-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Commercial Construction Projects India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Corporate & Retail Construction Experts in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Corporate & Retail Construction Experts in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects delivers large-scale commercial construction solutions including malls, office towers, retail spaces, and mixed-use developments. We ensure timely delivery with premium finishes across India.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/commercial-construction-company-in-india',
+  },
+};
+
+
 import BannerTop from '../../components/BannerTop'
 import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'

@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Mechanical, Electrical & Plumbing (MEP) Solutions – Sense Projects Pvt. Ltd.',
+  description:
+    'Get reliable MEP engineering and contracting services across India. Sense Projects specializes in HVAC design, fire safety systems, power distribution, and plumbing integration for commercial and industrial projects.',
+  keywords: [
+    'MEP Engineering Consultants India',
+    'HVAC Contractors Delhi NCR',
+    'Plumbing and Firefighting Systems',
+    'Electrical System Integrators',
+    'Building Services Engineering India',
+    'Technical Services Contractors',
+    'Fire Protection Installation India',
+    'MEP Design and Build Solutions',
+    'Energy-Efficient HVAC Systems',
+    'Power and Utility Service Experts'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/mep-contractor-in-delhi/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'MEP Solutions & Building Services » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Mechanical, Electrical & Plumbing (MEP) Solutions – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Mechanical, Electrical & Plumbing (MEP) Solutions – Sense Projects Pvt. Ltd.',
+    description:
+      'Get reliable MEP engineering and contracting services across India. Sense Projects specializes in HVAC design, fire safety systems, power distribution, and plumbing integration for commercial and industrial projects.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/mep-contractor-in-delhi/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

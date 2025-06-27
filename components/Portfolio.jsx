@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+
 
 import { useState, useEffect } from "react";
 import "../styles/Portfolio.css";
@@ -75,23 +77,30 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio-grid row g-4" id="MixItUp8A7388">
-            {filteredItems.map((item) => (
-              <div key={item.id} className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
-                <div className={`portfolio ${item.category}`} data-cat={item.category}>
-                  <div className={`portfolio-wrapper ${item.className}`}>
-                    <div className="portfolio-bg">
-                      <img src={item.image} className="img-fluid" alt={item.title} />
-                    </div>
-                    <div className="label">
-                      <div className="label-text">
-                        <h4>{item.title}</h4>
-                      </div>
-                      <div className="label-bg"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+        {filteredItems.map((item) => (
+  <div key={item.id} className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+    <div className={`portfolio ${item.category}`} data-cat={item.category}>
+      <div className={`portfolio-wrapper ${item.className}`}>
+        <div className="portfolio-bg">
+          <Image
+            src={item.image}
+            alt={item.title}
+            width={600}
+            height={400}
+            className="img-fluid"
+          />
+        </div>
+        <div className="label">
+          <div className="label-text">
+            <h4>{item.title}</h4>
+          </div>
+          <div className="label-bg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+))}
+
           </div>
 
         </div>

@@ -1,3 +1,35 @@
+export const metadata = {
+  title: 'Certifications & Accreditations – Sense Projects Pvt. Ltd.',
+  description:
+    'Explore our official certifications and accreditations that reflect Sense Projects Pvt. Ltd.’s commitment to quality, safety, sustainability, and industry excellence.',
+  keywords: [
+    'Construction Certifications India',
+    'ISO Certified Builders',
+    'Quality Assurance Accreditation',
+    'Certified Construction Company India',
+    'Safety Certified Infrastructure Firm',
+    'Sustainability Certifications Construction',
+    'Accredited Construction Firm',
+    'Compliance Certified Company India',
+    'Recognized Builders Certifications',
+    'Green Building Certifications India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/certification',
+  },
+  openGraph: {
+    title: 'Certifications & Accreditations – Sense Projects Pvt. Ltd.',
+    description:
+      'View the official recognitions and quality certifications that establish Sense Projects Pvt. Ltd. as a leader in construction excellence across India.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/certification',
+  },
+};
+
+
+
 import React from 'react'
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';

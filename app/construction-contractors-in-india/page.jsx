@@ -1,3 +1,46 @@
+export const metadata = {
+  title: 'Civil Construction Experts in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects delivers exceptional civil engineering and structural development services across India. Trusted by enterprises for quality, safety, and timely execution.',
+  keywords: [
+    'Civil Engineering Firms India',
+    'Structural Construction Experts',
+    'Infrastructure Builders India',
+    'Top Site Development Companies',
+    'Turnkey Civil Engineering Services',
+    'Urban Construction Specialists',
+    'Reinforced Concrete Contractors',
+    'Foundation Work Experts',
+    'Industrial Site Developers',
+    'Certified Civil Builders India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/construction-contractors-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Civil Construction Experts in India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Civil Construction Experts in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Civil Construction Experts in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects delivers exceptional civil engineering and structural development services across India. Trusted by enterprises for quality, safety, and timely execution.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/construction-contractors-in-india',
+  },
+};
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'About Sense Projects – India’s Trusted Infrastructure Partner',
+  description:
+    'Learn about Sense Projects Pvt. Ltd., India’s trusted name in construction, engineering, and infrastructure. Discover our legacy, values, and commitment to delivering world-class solutions.',
+  keywords: [
+    'About Construction Firm India',
+    'Company Profile Builders',
+    'Trusted Infrastructure Partner',
+    'Corporate Construction Overview',
+    'Engineering Leadership India',
+    'Construction Legacy Company',
+    'Reputed Building Firm Profile',
+    'Infrastructure Company History',
+    'Top Development Partner India',
+    'Sense Projects Background'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/about-us/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'About Sense Projects Pvt. Ltd. » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'About Sense Projects – India’s Trusted Infrastructure Partner',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'About Sense Projects – India’s Trusted Infrastructure Partner',
+    description:
+      'Learn about Sense Projects Pvt. Ltd., India’s trusted name in construction, engineering, and infrastructure. Discover our legacy, values, and commitment to delivering world-class solutions.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/about-us/',
+  },
+};
+
+
+
 import '../../styles/AboutWhoWeAre.css'
 import Testimonials from '../../components/Testimonials';
 import PanIndia from '../../components/PanIndia';

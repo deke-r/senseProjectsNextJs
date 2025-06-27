@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Residential Collaboration Services in India – Joint Venture & Builder Partnerships',
+  description:
+    'Sense Projects Pvt. Ltd. offers trusted residential collaboration services in India, enabling landowners and developers to partner on high-return residential projects. Transparent process and legal expertise included.',
+  keywords: [
+    'Residential Land Collaboration India',
+    'Builder Developer Joint Venture',
+    'Residential Floor Sharing Partnership',
+    'Property Collaboration Services',
+    'Joint Development Agreement Consultants',
+    'Real Estate Collaboration Experts',
+    'Landowner Builder Partnership India',
+    'Collaboration for Residential Projects',
+    'Turnkey Residential JV Projects',
+    'Residential Construction Partnerships India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/collaboration/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Residential Collaboration Services India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Residential Collaboration Services in India – Joint Venture & Builder Partnerships',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Residential Collaboration Services in India – Joint Venture & Builder Partnerships',
+    description:
+      'Join hands with Sense Projects Pvt. Ltd. for land collaboration and joint development of residential properties across India. Ideal for landowners and real estate developers.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/collaboration/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';
@@ -75,7 +119,7 @@ export default function ResedentialCollaborationServicesProviderInIndia() {
                             <p className="fw-semibold mt-2 text-muted text-justify">
                               Our unwavering commitment to client satisfaction is embodied in our meticulous attention to detail, premium-quality materials, and streamlined project management. We pride ourselves on delivering on time, every time—making us the preferred partner for discerning clients seeking excellence.
                             </p>
-                            
+
                         </div>
 
 

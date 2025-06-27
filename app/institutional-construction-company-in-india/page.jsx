@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Educational & Institutional Building Contractors – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. offers specialized construction services for schools, colleges, hospitals, and public institutions across India. We ensure durable, functional, and scalable institutional spaces.',
+  keywords: [
+    'School Construction Contractors India',
+    'College Building Developers',
+    'Institutional Infrastructure Builders',
+    'Campus Development Company',
+    'Public Sector Construction Experts',
+    'Educational Facilities Contractors',
+    'University Construction Firms India',
+    'Healthcare Institution Builders',
+    'Government Building Contractors',
+    'Institutional Architecture & Construction'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/institutional-construction-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Institutional Construction Projects India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Educational & Institutional Building Contractors – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Educational & Institutional Building Contractors – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects Pvt. Ltd. offers specialized construction services for schools, colleges, hospitals, and public institutions across India. We ensure durable, functional, and scalable institutional spaces.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/institutional-construction-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop'
 import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'

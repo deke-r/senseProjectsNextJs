@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Steel Structure & PEB Solutions in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Discover advanced steel structure and PEB (Pre-Engineered Building) systems with Sense Projects. We deliver durable industrial sheds, warehouses, and turnkey factory buildings across India.',
+  keywords: [
+    'Steel Building Fabricators India',
+    'Modular Steel Construction',
+    'Industrial Shed Contractors',
+    'Warehouse Shed Builders India',
+    'Pre-Fabricated Steel Structures',
+    'Turnkey PEB Projects',
+    'Heavy Steel Frame Installers',
+    'Structural Steel Solutions India',
+    'Factory Shed Erection Services',
+    'PEB Infrastructure Development'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/pre-engineered-buildings-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'PEB & Steel Structures India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Steel Structure & PEB Solutions in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Steel Structure & PEB Solutions in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Discover advanced steel structure and PEB (Pre-Engineered Building) systems with Sense Projects. We deliver durable industrial sheds, warehouses, and turnkey factory buildings across India.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/pre-engineered-buildings-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

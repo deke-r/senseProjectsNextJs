@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Commercial Collaboration Services in India – Business Property Joint Ventures',
+  description:
+    'Sense Projects Pvt. Ltd. offers expert commercial collaboration services across India, enabling landowners and businesses to co-develop office spaces, business parks, retail outlets, and commercial hubs. Transparent JV models tailored to maximize ROI.',
+  keywords: [
+    'Commercial Property Collaboration India',
+    'Office Space JV Developers',
+    'Retail Space Collaboration Services',
+    'Business Park Joint Ventures',
+    'Commercial Real Estate Partnerships',
+    'Builder Business Collaboration India',
+    'Commercial Floor Sharing Projects',
+    'Landowner Commercial JV India',
+    'Corporate Property Development Partner',
+    'FSI Based Collaboration Services'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/commercial-collaboration/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Commercial Collaboration Services India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Commercial Collaboration Services in India – Business Property Joint Ventures',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Commercial Collaboration Services in India – Business Property Joint Ventures',
+    description:
+      'Partner with Sense Projects Pvt. Ltd. for commercial property development through joint ventures. Ideal for landowners and businesses developing retail or corporate infrastructure.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/commercial-collaboration/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

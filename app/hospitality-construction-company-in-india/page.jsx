@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Hospitality Construction Company in India - Sense Projects',
+  description:
+    'Sense Projects specializes in end-to-end construction of hospitality spaces including luxury hotels, boutique resorts, and fine-dining restaurants across India. We deliver premium quality and on-time completion.',
+  keywords: [
+    'Hotel Construction Specialists India',
+    'Luxury Resort Builders India',
+    'Restaurant Fit-Out Contractors',
+    'Hospitality Infrastructure Company',
+    'Turnkey Hotel Project Developers',
+    'Resort Construction Firm India',
+    'Hospitality Sector Civil Contractors',
+    'Boutique Hotel Construction Services',
+    'Lounge and Banquet Hall Builders',
+    'Tourism Infrastructure Experts India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/hospitality-construction-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Hospitality Project Services India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Hospitality Construction Company in India - Sense Projects',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Hospitality Construction Company in India - Sense Projects',
+    description:
+      'Sense Projects specializes in end-to-end construction of hospitality spaces including luxury hotels, boutique resorts, and fine-dining restaurants across India. We deliver premium quality and on-time completion.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/hospitality-construction-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop'
 import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'

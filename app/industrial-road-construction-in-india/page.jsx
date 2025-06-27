@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Industrial Road Construction Contractors in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. offers expert industrial road construction services across India. We specialize in building high-load access roads for factories, SEZs, logistics hubs, and industrial corridors with long-lasting performance.',
+  keywords: [
+    'Industrial Access Road Contractors India',
+    'Factory Road Builders',
+    'SEZ Road Construction Experts',
+    'Heavy Load Road Construction India',
+    'Logistics Park Road Contractors',
+    'Industrial Corridor Infrastructure',
+    'Manufacturing Zone Road Builders',
+    'Export Zone Road Construction',
+    'Custom Industrial Road Design India',
+    'Durable Industrial Driveway Construction'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/industrial-road-construction-company-in-india/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Industrial Road Infrastructure India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Industrial Road Construction Contractors in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Industrial Road Construction Contractors in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Specialized industrial road contractors for SEZs, logistics parks, and high-load zones. Sense Projects Pvt. Ltd. ensures durability and compliance across India.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/industrial-road-construction-company-in-india/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

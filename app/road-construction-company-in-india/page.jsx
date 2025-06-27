@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Highway & Road Infrastructure Contractors – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects delivers reliable road and highway infrastructure development services across India. We specialize in asphalt paving, concrete roads, expressways, and urban street upgrades.',
+  keywords: [
+    'Highway Construction Experts India',
+    'Urban Road Development Company',
+    'Pavement Contractors India',
+    'Expressway Builders India',
+    'National Highway Engineers',
+    'Bitumen Road Specialists',
+    'Asphalt Paving Services India',
+    'Concrete Road Builders',
+    'Rural Road Development Firm',
+    'Municipal Road Work Contractors'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/road-services/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Road Infrastructure Services India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Highway & Road Infrastructure Contractors – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Highway & Road Infrastructure Contractors – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects delivers reliable road and highway infrastructure development services across India. We specialize in asphalt paving, concrete roads, expressways, and urban street upgrades.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/road-services/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

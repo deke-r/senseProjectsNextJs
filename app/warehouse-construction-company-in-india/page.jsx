@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Industrial & Logistics Warehouse Builders in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. delivers turnkey warehouse construction services across India, including logistics hubs, storage facilities, cold storage units, and fulfillment centers. Trusted by top supply chain firms.',
+  keywords: [
+    'Logistics Park Construction India',
+    'Fulfillment Center Builders',
+    'Cold Storage Facility Contractors',
+    'Warehousing Infrastructure Company',
+    'Storage Building Developers India',
+    'Distribution Center Construction',
+    'Bulk Storage Space Builders',
+    'Warehouse Expansion Experts',
+    'Industrial Shed for Logistics',
+    'Large-Scale Storage Facility Contractors'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/warehouse-construction-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Warehouse Construction Experts India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Industrial & Logistics Warehouse Builders in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Industrial & Logistics Warehouse Builders in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects Pvt. Ltd. delivers turnkey warehouse construction services across India, including logistics hubs, storage facilities, cold storage units, and fulfillment centers. Trusted by top supply chain firms.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/warehouse-construction-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop'
 import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'

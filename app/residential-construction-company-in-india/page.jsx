@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Premium Residential Builders in India – Sense Projects Pvt. Ltd.',
+  description:
+    'From luxury villas to modern apartments, Sense Projects offers high-quality residential construction services across India. We deliver durable homes with top-class architecture and timely execution.',
+  keywords: [
+    'Custom Home Builders India',
+    'Villa Construction Services',
+    'Luxury Residential Developers',
+    'Apartment Construction Companies',
+    'House Construction Specialists',
+    'Gated Community Builders',
+    'Independent Home Contractors',
+    'Smart Home Construction India',
+    'Urban Residential Projects',
+    'Sustainable Housing Contractors'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/residential-construction-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Residential Construction Services India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Premium Residential Builders in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Premium Residential Builders in India – Sense Projects Pvt. Ltd.',
+    description:
+      'From luxury villas to modern apartments, Sense Projects offers high-quality residential construction services across India. We deliver durable homes with top-class architecture and timely execution.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/residential-construction-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop'
 import PanIndia from '../../components/PanIndia'
 import CTASection from '../../components/CTASection'

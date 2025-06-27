@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Collaborative Construction & Agile Project Services – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects enables efficient collaboration in construction projects across India. Our approach combines Agile construction methods with real-time communication and team integration.',
+  keywords: [
+    'Collaborative Project Delivery India',
+    'Agile Construction Services',
+    'Integrated Construction Management',
+    'Lean Construction Practices',
+    'Construction Partnering Solutions',
+    'Team-Based Building Approach',
+    'Digital Construction Coordination',
+    'Real-Time Project Communication',
+    'Construction Workflow Integration',
+    'Cross-Disciplinary Construction Teams'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/construction-collaboration-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Agile Collaboration in Construction India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Collaborative Construction & Agile Project Services – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Collaborative Construction & Agile Project Services – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects enables efficient collaboration in construction projects across India. Our approach combines Agile construction methods with real-time communication and team integration.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/construction-collaboration-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

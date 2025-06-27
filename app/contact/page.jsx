@@ -1,4 +1,34 @@
-'use client';
+
+export const metadata = {
+  title: 'Contact Us – Get in Touch with Sense Projects Pvt. Ltd.',
+  description:
+    'Need assistance or want to discuss your project? Contact Sense Projects Pvt. Ltd. today for expert consultation and support. Reach us via phone, email, or our office locations across India.',
+  keywords: [
+    'Contact Construction Experts India',
+    'Builders Contact Information',
+    'Construction Company Support',
+    'Project Consultation Delhi NCR',
+    'Reach Out to Sense Projects',
+    'Construction Services Inquiry',
+    'Contact Real Estate Developers India',
+    'Infrastructure Company Phone Number',
+    'Project Quote Construction India',
+    'Visit Sense Projects Office'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/contact',
+  },
+  openGraph: {
+    title: 'Contact Us – Get in Touch with Sense Projects Pvt. Ltd.',
+    description:
+      'Reach out to Sense Projects for professional guidance on your upcoming project. We’re available across India to assist you.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/contact',
+  },
+};
+
 
 import React from 'react';
 import BannerTop from '../../components/BannerTop';

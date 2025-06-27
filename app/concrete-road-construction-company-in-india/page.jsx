@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Concrete Road Construction Experts in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. is a leading concrete road construction company in India specializing in durable cement concrete roads for industrial zones, highways, and smart city projects. Precision, strength, and longevity guaranteed.',
+  keywords: [
+    'Rigid Pavement Contractors India',
+    'Cement Concrete Road Builders',
+    'Concrete Highway Construction India',
+    'PQC Road Contractors India',
+    'Urban Concrete Road Developers',
+    'Industrial Road Construction India',
+    'White Topping Road Experts',
+    'Heavy Duty Pavement Construction',
+    'Smart City Road Infrastructure',
+    'Slip Form Concrete Paving India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/concrete-road-construction-company-in-india/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Concrete Road Infrastructure India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Concrete Road Construction Experts in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Concrete Road Construction Experts in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects Pvt. Ltd. builds rigid concrete roads for industrial, highway, and municipal infrastructure across India. Quality construction with long-term performance.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/concrete-road-construction-company-in-india/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

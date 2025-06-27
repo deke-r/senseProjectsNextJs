@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Corporate & Retail Interior Experts – Sense Projects Pvt. Ltd.',
+  description:
+    'Transform commercial spaces with Sense Projects’ expert interior solutions. We design and execute high-end interiors for offices, showrooms, hospitality, and retail brands across India.',
+  keywords: [
+    'Commercial Interior Designers India',
+    'Retail Fitout Specialists',
+    'Office Interior Contractors',
+    'Hospitality Interior Services',
+    'Workspace Design India',
+    'Turnkey Interior Contractors',
+    'Modern Interior Architecture',
+    'Premium Showroom Interiors',
+    'Interior Execution Services India',
+    'Luxury Interior Planning Experts'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/interior-fitout-company-in-india',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Corporate Interior Design Services » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Corporate & Retail Interior Experts – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Corporate & Retail Interior Experts – Sense Projects Pvt. Ltd.',
+    description:
+      'Transform commercial spaces with Sense Projects’ expert interior solutions. We design and execute high-end interiors for offices, showrooms, hospitality, and retail brands across India.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/interior-fitout-company-in-india',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

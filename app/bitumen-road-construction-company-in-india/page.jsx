@@ -1,3 +1,47 @@
+export const metadata = {
+  title: 'Bitumen Road Construction Specialists in India – Sense Projects Pvt. Ltd.',
+  description:
+    'Sense Projects Pvt. Ltd. is a trusted bitumen road construction company in India, delivering high-quality highways, rural roads, and urban asphalt paving projects with durability and precision.',
+  keywords: [
+    'Bitumen Road Construction Contractors India',
+    'Asphalt Paving Company India',
+    'National Highway Contractors India',
+    'Urban Road Infrastructure Builders',
+    'Flexible Pavement Construction India',
+    'Rural Road Development Experts',
+    'Blacktop Road Construction Services',
+    'Bituminous Macadam Layer Contractors',
+    'Government Road Project Builders',
+    'Top Asphalt Surfacing Company India'
+  ],
+  alternates: {
+    canonical: 'https://senseprojects.in/bitumen-road-construction-company-in-india/',
+    types: {
+      'application/rss+xml': [
+        {
+          title: 'Bitumen Road Infrastructure India » Feed',
+          url: 'https://senseprojects.in/feed/',
+        },
+        {
+          title: 'Bitumen Road Construction Specialists in India – Sense Projects Pvt. Ltd.',
+          url: 'https://senseprojects.in/comments/feed/',
+        },
+      ],
+    },
+  },
+  openGraph: {
+    title: 'Bitumen Road Construction Specialists in India – Sense Projects Pvt. Ltd.',
+    description:
+      'Sense Projects Pvt. Ltd. is a trusted bitumen road construction company in India, delivering high-quality highways, rural roads, and urban asphalt paving projects with durability and precision.',
+    locale: 'en_US',
+    type: 'website',
+    siteName: 'Sense Projects Pvt. Ltd.',
+    url: 'https://senseprojects.in/bitumen-road-construction-company-in-india/',
+  },
+};
+
+
+
 import BannerTop from '../../components/BannerTop';
 import PanIndia from '../../components/PanIndia';
 import SectionHeader from '../../components/SectionHeader';

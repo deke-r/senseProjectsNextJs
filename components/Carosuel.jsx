@@ -11,7 +11,7 @@ const slides = [
     desc: "Sense Projects focusing on India residential building projects, extensions, conversions and refurbishments.",
   },
   {
-    src: "/images/hero-carousel-2.jpg",
+    src: "/images/hero-carousel-2.webp",
     title: "Commercial Construction Experts",
     desc: "Delivering reliable and sustainable commercial construction services across India.",
   },

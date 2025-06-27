@@ -3,7 +3,7 @@
 export const metadata = {
   title: 'Best Construction Company in India - Sense Projects Pvt Ltd.',
   description:
-    'Sense Projects Pvt. Ltd. (SPPL) is a reputed, globally recognised and most admired construction company in India, which specializes in delivering top notch services',
+    'Sense Projects Pvt. Ltd. (SPPL) is a reputed and globally recognised construction company in India, offering turnkey, civil, PMC, and interior solutions across Delhi, Noida, Gurgaon, Mumbai, Pune, Bengaluru, Chennai, Hyderabad, Ahmedabad, Kolkata, and Jaipur. ',
   keywords: [
     'Construction Company',
     'Best Construction Company',

@@ -21,7 +21,7 @@ const slides = [
     desc: "Bringing visionary architecture to life with cutting-edge designs and technology.",
   },
   {
-    src: "/images/hero-carousel-4.jpg",
+    src: "/images/man-holding-blueprint-while-standing-construction-site-against-sky_1048944-4929016.webp",
     title: "End-to-End Project Management",
     desc: "From planning to completion, we manage your construction journey seamlessly.",
   },

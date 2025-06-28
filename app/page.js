@@ -75,7 +75,7 @@ import PopupForm from '@/components/PopupForm';
 export default function HomePage() {
   return (
     <>
-    {/* <PopupForm/> */}
+    <PopupForm/>
       <div className="banner-top">
         <Carosuel />
         <div className="video-overlay"></div>

@@ -140,32 +140,32 @@ html, body {
     margin: 0;
     text-align: center;
   }
-/* WebKit Browsers (Chrome, Edge, Safari) */
+
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 5px;
   height: 20px;
-  border-radius: 0 !important;
+  border-radius: 0px;
 }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-  border-radius: 0 !important;
+ border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #134377;
   border-radius: 0 !important;
+  background-clip: border-box;
+  border: 0px solid transparent;
 }
+
+
 
 ::-webkit-scrollbar-thumb:hover {
   background: #0c2e58;
 }
 
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #134377 #f1f1f1;
-}
+
 
 
 .bg-o{

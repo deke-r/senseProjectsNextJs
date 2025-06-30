@@ -63,8 +63,8 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1); /* 50% black overlay */
-    z-index: 1; /* Keep the overlay behind the text */
+    background: rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
   }
   
 
@@ -74,22 +74,22 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .6); /* 50% black overlay */
-    z-index: 1; /* Keep the overlay behind the text */
+    background: rgba(0, 0, 0, .6); 
+    z-index: 1; 
   }
   
   .leading-content,.counter-section{
     position: relative;
-    z-index: 10; /* Ensure this content is above the overlay */
+    z-index: 10; 
   }
   
   .timer {
-    z-index: 10; /* Ensuring timer text is also above overlay */
+    z-index: 10;
     color: #FFC107 !important;
   }
   
   h3.text-light {
-    z-index: 10; /* Ensures heading text is above the overlay */
+    z-index: 10; 
   }
   
 

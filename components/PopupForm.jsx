@@ -3,19 +3,22 @@
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import styles from '../styles/PopupForm.module.css';
+import axios from 'axios';
 
 export default function PopupForm() {
   const [showPopup, setShowPopup] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [animateIn, setAnimateIn] = useState(false);
+  const [loading, setLoadingData] = useState(false);
+  const [alert, setAlert] = useState({ type: '', message: '' });
 
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
-  // Scroll trigger
   useEffect(() => {
     const isSubmitted = localStorage.getItem('popupFormSubmitted');
     if (isSubmitted) return;
@@ -23,7 +26,7 @@ export default function PopupForm() {
     const onScroll = () => {
       if (window.scrollY > 300) {
         setShowPopup(true);
-        setTimeout(() => setAnimateIn(true), 100); 
+        setTimeout(() => setAnimateIn(true), 100);
         window.removeEventListener('scroll', onScroll);
       }
     };
@@ -32,16 +35,32 @@ export default function PopupForm() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const onSubmit = (data) => {
-    console.log('Form submitted:', data);
-    localStorage.setItem('popupFormSubmitted', 'true');
-    setFormSubmitted(true);
-    setTimeout(() => setShowPopup(false), 1500);
+  const onSubmit = async (data) => {
+    setLoadingData(true);
+    setAlert({ type: '', message: '' });
+
+    try {
+      const res = await axios.post('/api/pop-up-form-data', data);
+
+      if (res.status === 200 && res.data.success) {
+        setAlert({ type: 'success', message: 'Message sent successfully!' });
+        localStorage.setItem('popupFormSubmitted', 'true');
+        setFormSubmitted(true);
+        reset();
+        setTimeout(() => setShowPopup(false), 2000);
+      } else {
+        setAlert({ type: 'danger', message: 'Something went wrong. Please try again.' });
+      }
+    } catch (error) {
+      setAlert({ type: 'danger', message: 'Server error. Please try again later.' });
+    } finally {
+      setLoadingData(false);
+    }
   };
 
   const handleClose = () => {
     setAnimateIn(false);
-    setTimeout(() => setShowPopup(false), 300); // match animation duration
+    setTimeout(() => setShowPopup(false), 300);
   };
 
   if (!showPopup) return null;
@@ -51,7 +70,7 @@ export default function PopupForm() {
       <div className={`${styles.popupBox} ${animateIn ? styles.popupIn : styles.popupOut}`}>
         <div className="container">
           <div className="row">
-            <div className={`col-12  text-center ${styles.formHeader}`}>
+            <div className={`col-12 text-center ${styles.formHeader}`}>
               <h2 className='fw-bold'>Send a Quick Enquiry to US</h2>
               <p>
                 <span className='text-danger fw-semibold'>(Call for Free Consultation) </span>
@@ -61,9 +80,16 @@ export default function PopupForm() {
             </div>
             <div className="col-12">
               {formSubmitted ? (
-                <div className="text-center text-success">Thank you! Your message has been sent.</div>
+                <div className="text-center text-success fw-semibold">Thank you! Your message has been sent.</div>
               ) : (
                 <form onSubmit={handleSubmit(onSubmit)} className="mt-3">
+
+                  {alert.message && (
+                    <div className={`alert alert-${alert.type} rounded-0`} role="alert">
+                      {alert.message}
+                    </div>
+                  )}
+
                   <input
                     type="text"
                     placeholder="Name"
@@ -77,10 +103,7 @@ export default function PopupForm() {
                     placeholder="Email"
                     {...register('email', {
                       required: 'Email is required',
-                      pattern: {
-                        value: /^\S+@\S+$/i,
-                        message: 'Invalid email format',
-                      },
+                      pattern: { value: /^\S+@\S+$/i, message: 'Invalid email format' },
                     })}
                     className="form-control rounded-0 shadow-none mb-2"
                   />
@@ -120,10 +143,17 @@ export default function PopupForm() {
                     <option value="Road Services">Road Services</option>
                     <option value="Collaboration">Collaboration</option>
                     <option value="MEP Services">MEP Services</option>
+                    <option value="Other Services">Other Services</option>
                   </select>
                   {errors.services && <p className="text-danger">{errors.services.message}</p>}
 
-                  <button type="submit" className="btn btn-primary bg-blue border-0 rounded-0 w-100">SUBMIT</button>
+                  <button
+                    type="submit"
+                    className="btn btn-primary bg-blue border-0 rounded-0 w-100"
+                    disabled={loading}
+                  >
+                    {loading ? 'SUBMITTING...' : 'SUBMIT'}
+                  </button>
                 </form>
               )}
             </div>

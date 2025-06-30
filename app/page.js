@@ -69,13 +69,13 @@ import AwardWinning from '../components/AwardWinning'
 import OurClients from '../components/OurClients'
 import Testimonials from '../components/Testimonials'
 import PanIndia from '../components/PanIndia'
-import PopupForm from '@/components/PopupForm';
+
 
 
 export default function HomePage() {
   return (
     <>
-    <PopupForm/>
+ 
       <div className="banner-top">
         <Carosuel />
         <div className="video-overlay"></div>

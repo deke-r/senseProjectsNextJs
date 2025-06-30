@@ -7,6 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Bootstrap from '../utils/Bootstrap';
 import Footer from '@/components/Footer';
+import PopupForm from '@/components/PopupForm';
 
 
 export default function RootLayout({ children }) {
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className="d-flex flex-column min-vh-100">
         {/* <TawkToWidget/> */}
         <Bootstrap />
+        <PopupForm/>
         {/* <TopBar/> */}
         {/* <Navbar /> */}
         <main className="flex-grow-1">
